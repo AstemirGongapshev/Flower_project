@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fl-project"
+version = "0.1.0"
+description = ""
+authors = ["AstemirGongapshev <astemirgongapshev6194@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flwr = "^1.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
