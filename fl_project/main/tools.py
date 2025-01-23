@@ -98,14 +98,14 @@ def prepare_data(
 def train(
     model: torch.nn.Module,
     train_loader: DataLoader,
-    learning_rate: float,
+    lr: float,
     num_epochs: int,
     device: str,
 ) -> None:
     try:
         model.to(device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.SGD(model.parameters(), lr=learning_rate)  # maybe Adam
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr)  # maybe Adam
 
         for epoch in range(num_epochs):
             model.train()
