@@ -8,8 +8,9 @@ from tools import (
     set_model_parameters,
     train,
     test,
-    prepare_data
+    prepare_data,
 )
+
 
 class FlowerClient(NumPyClient):
     def __init__(self, trainloader, valloader, model):
@@ -26,11 +27,12 @@ class FlowerClient(NumPyClient):
     def evaluate(self, parameters, config):
         set_model_parameters(self.model, parameters)
         metrics = test(self.model, self.valloader)
-        # self.local_metrics.append(metrics) 
-        return  metrics["logloss_test"], len(self.valloader.dataset), metrics
+        # self.local_metrics.append(metrics)
+        return metrics["logloss_test"], len(self.valloader.dataset), metrics
 
 
 def client_fn():
     return FlowerClient().to_client()
+
 
 app = ClientApp(client_fn)
