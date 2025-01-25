@@ -50,5 +50,5 @@ def client_fn(file_path_train, file_path_test):
 
 if __name__ == "__main__":
     client_fn(
-        os.path.join("data", "IID_2.csv"), os.path.join("data", "TEST_SAMPLE.csv")
+        os.path.join("data", "IID_1.csv"), os.path.join("data", "TEST_SAMPLE.csv")
     )
