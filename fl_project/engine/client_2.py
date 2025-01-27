@@ -1,8 +1,8 @@
 import flwr as fl
 import os
 from flwr.client import NumPyClient
-from model import LogisticRegressionModel
-from tools import (
+from engine.model import LogisticRegressionModel
+from engine.tools import (
     get_data,
     get_model_parameters,
     set_initial_parameters,
@@ -50,5 +50,5 @@ def client_fn(file_path_train, file_path_test):
 
 if __name__ == "__main__":
     client_fn(
-        os.path.join("data", "IID_1.csv"), os.path.join("data", "TEST_SAMPLE.csv")
+        os.path.join("engine","data", "df2.csv"), os.path.join("engine","data", "TEST_SAMPLE.csv")
     )

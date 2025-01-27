@@ -8,6 +8,10 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.12"
 flwr = "^1.14.0"
+imbalanced-learn = "^0.13.0"
+torch = "^2.5.1"
+pandas = "^2.2.3"
+tqdm = "^4.67.1"
 
 
 [build-system]
