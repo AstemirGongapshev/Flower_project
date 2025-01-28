@@ -43,7 +43,7 @@ def client_fn(file_path_train, file_path_test):
 
     model = LogisticRegressionModel(input_dim=input_dim)
     print(f"!*10{type(model)}")
-    
+
     set_initial_parameters(model)
 
     return fl.client.start_client(
