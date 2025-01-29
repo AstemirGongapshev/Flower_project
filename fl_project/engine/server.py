@@ -3,11 +3,10 @@ from flwr.common import Parameters, Scalar
 from flwr.server.client_proxy import ClientProxy
 from flwr.server.strategy import FedAvg
 from typing import List, Tuple, Dict, Optional, Union
-import logging
+
 
 roc_auc_history = []
 MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
-
 
 def aggregate_metrics(
     metrics_list: List[Tuple[int, Dict[str, Scalar]]]
@@ -60,7 +59,8 @@ class FedAvgCustom(FedAvg):
         )
         if "roc_auc_test" in metrics_aggregated:
             roc_auc_history.append(metrics_aggregated["roc_auc_test"])
-
+            
+            
             if len(roc_auc_history) > MAX_ROUNDS_WITHOUT_IMPROVEMENT:
                 last_five = roc_auc_history[-MAX_ROUNDS_WITHOUT_IMPROVEMENT:]
                 if all(x >= y for x, y in zip(last_five, last_five[1:])):
