@@ -3,6 +3,10 @@ from flwr.common import Parameters, Scalar
 from flwr.server.client_proxy import ClientProxy
 from flwr.server.strategy import FedAvg
 from typing import List, Tuple, Dict, Optional, Union
+import logging
+
+roc_auc_history = []
+MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
 
 
 def aggregate_metrics(
@@ -47,13 +51,22 @@ class FedAvgCustom(FedAvg):
         results: List[Tuple[ClientProxy, fl.common.EvaluateRes]],
         failures: List[Union[Tuple[ClientProxy, fl.common.EvaluateRes], BaseException]],
     ) -> Tuple[Optional[float], Dict[str, Scalar]]:
-
+        global roc_auc_history
         loss_aggregated, metrics_aggregated = super().aggregate_evaluate(
             server_round, results, failures
         )
         print(
             f"📊 [Round {server_round}] Aggregated evaluation metrics: {metrics_aggregated}"
         )
+        if "roc_auc_test" in metrics_aggregated:
+            roc_auc_history.append(metrics_aggregated["roc_auc_test"])
+
+            if len(roc_auc_history) > MAX_ROUNDS_WITHOUT_IMPROVEMENT:
+                last_five = roc_auc_history[-MAX_ROUNDS_WITHOUT_IMPROVEMENT:]
+                if all(x >= y for x, y in zip(last_five, last_five[1:])):
+                    print(
+                        f"⚠️ Early stopping warning: ROC AUC has been decreasing for {MAX_ROUNDS_WITHOUT_IMPROVEMENT} rounds!"
+                    )
         return loss_aggregated, metrics_aggregated
 
 
@@ -70,4 +83,4 @@ def server_fn(num_rounds: int) -> None:
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=20)
+    server_fn(num_rounds=50)
