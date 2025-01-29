@@ -132,7 +132,7 @@ def train(
         raise
 
 
-def test(
+def eval(
     model: torch.nn.Module, test_loader: DataLoader, device: str
 ) -> Dict[str, float]:
     model.to(device)
