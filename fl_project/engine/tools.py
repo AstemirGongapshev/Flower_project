@@ -35,7 +35,6 @@ def get_model_parameters(model: torch.nn.Module) -> List[np.ndarray]:
 
 
 def set_model_parameters(model: torch.nn.Module, parameters: List[np.ndarray]) -> None:
-    print(type(model))
     params_dict = zip(model.state_dict().keys(), parameters)
     state_dict = {k: torch.tensor(v) for k, v in params_dict}
     model.load_state_dict(state_dict, strict=False)
