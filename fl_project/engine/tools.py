@@ -101,7 +101,7 @@ def train(
     lr: float,
     num_epochs: int,
     device: str,
-    prox=False,
+    proximal_mu=0,
     global_params: Optional[List[np.ndarray]] = None,
     
 ) -> None:
@@ -126,13 +126,18 @@ def train(
                 outputs = model(inputs)
                 loss = criterion(outputs, labels)
                 
-                if prox:
-                    proximal_mu = 0.01  
-                    proximal_term = 0.0
-                    for local_param, global_param in zip(model.parameters(), global_params):
-                        global_tensor = torch.tensor(global_param, device=device)
-                        proximal_term += torch.norm(local_param - global_tensor, p=2) ** 2
-                    loss += (proximal_mu / 2) * proximal_term
+                        
+            
+                print(f"ITS FEDPROX with proxy:{proximal_mu}")
+                proximal_term = 0.0
+                print(F"global_params:{global_params}")
+                print("="*100)
+                print(f"local_params:{list(model.parameters())}")
+                
+                for local_param, global_param in zip(model.parameters(), global_params):
+                    global_tensor = torch.tensor(global_param, device=device)
+                    proximal_term += torch.norm(local_param - global_tensor, p=2) ** 2
+                loss += (proximal_mu / 2) * proximal_term
 
                 loss.backward()
                 optimizer.step()

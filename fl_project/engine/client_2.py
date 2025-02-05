@@ -9,7 +9,7 @@ from engine.tools import (
     set_initial_parameters,
     set_model_parameters,
     train,
-    test,
+    eval,
     prepare_data,
 )
 
@@ -21,15 +21,17 @@ class FlowerClient(NumPyClient):
         self.model = model
         self.device = device
         self.local_metrics = list()
+        self.global_parameters = None
 
     def fit(self, parameters, config):
         set_model_parameters(self.model, parameters)
-        train(self.model, self.trainloader, lr=0.001, num_epochs=1, device=self.device)
+        self.global_parameters = parameters
+        train(self.model, self.trainloader, lr=0.001, num_epochs=1, device=self.device, prox=True, global_params=self.global_parameters)
         return get_model_parameters(self.model), len(self.trainloader.dataset), {}
 
     def evaluate(self, parameters, config):
         set_model_parameters(self.model, parameters)
-        metrics = test(self.model, self.valloader, device=self.device)
+        metrics = eval(self.model, self.valloader, device=self.device)
         return metrics["logloss_test"], len(self.valloader.dataset), metrics
 
 

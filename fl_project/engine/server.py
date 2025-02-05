@@ -74,6 +74,9 @@ def server_fn(num_rounds: int) -> None:
 
     config = fl.server.ServerConfig(num_rounds=num_rounds)
     strategy = FedAvgCustom(
+        min_fit_clients=6,
+        min_evaluate_clients=6,
+        min_available_clients=6,
         fit_metrics_aggregation_fn=aggregate_metrics,
         evaluate_metrics_aggregation_fn=aggregate_metrics,
     )

@@ -24,7 +24,8 @@ class FlowerClient(NumPyClient):
 
     def fit(self, parameters, config):
         set_model_parameters(self.model, parameters)
-        train(self.model, self.trainloader, lr=0.001, num_epochs=1, device=self.device)
+        self.global_parameters = parameters
+        train(self.model, self.trainloader, lr=0.001, num_epochs=1, device=self.device, prox=True, global_params=self.global_parameters)
         return get_model_parameters(self.model), len(self.trainloader.dataset), {}
 
     def evaluate(self, parameters, config):
