@@ -1,12 +1,34 @@
 import flwr as fl
+import os
+import json
 from flwr.common import Parameters, Scalar
 from flwr.server.client_proxy import ClientProxy
 from flwr.server.strategy import FedAvg
 from typing import List, Tuple, Dict, Optional, Union
-
+from flwr.server import History
 
 roc_auc_history = []
 MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
+
+
+def save_metrics(history, is_prox=False):
+    path = "prox_metrics.json" if is_prox else "fed_avg_metrics.json"
+
+    try:
+        results = {
+            key: history.metrics_distributed[val]
+            for key, val in {
+                "Loss": "logloss_test",
+                "ROC_AUC": "roc_auc_test",
+                "Accuracy": "accuracy_test",
+                "F1_Score": "f1_test",
+            }.items()
+        }
+
+        with open(path, "w") as f:
+            json.dump(results, f, indent=4)
+    except Exception as e:
+        print(f"Error saving metrics: {e}")
 
 
 def aggregate_metrics(
@@ -80,9 +102,13 @@ def server_fn(num_rounds: int) -> None:
         fit_metrics_aggregation_fn=aggregate_metrics,
         evaluate_metrics_aggregation_fn=aggregate_metrics,
     )
-    fl.server.start_server(
+    history = fl.server.start_server(
         server_address="0.0.0.0:8080", strategy=strategy, config=config
-    ),
+    )
+
+    # print(history.metrics_distributed,"\n",history.metrics_distributed["roc_auc_test"])
+
+    return save_metrics(history=history, is_prox=True)
 
 
 if __name__ == "__main__":

@@ -25,7 +25,15 @@ class FlowerClient(NumPyClient):
     def fit(self, parameters, config):
         set_model_parameters(self.model, parameters)
         self.global_parameters = parameters
-        train(self.model, self.trainloader, lr=0.001, num_epochs=1, device=self.device, prox=True, global_params=self.global_parameters)
+        train(
+            self.model,
+            self.trainloader,
+            lr=0.001,
+            num_epochs=1,
+            device=self.device,
+            proximal_mu=0.5,
+            global_params=self.global_parameters,
+        )
         return get_model_parameters(self.model), len(self.trainloader.dataset), {}
 
     def evaluate(self, parameters, config):
@@ -54,6 +62,6 @@ def client_fn(file_path_train, file_path_test):
 
 if __name__ == "__main__":
     client_fn(
-        os.path.join("engine", "data", "df5.csv"),
+        os.path.join("engine", "data", "noniid_df_5.csv"),
         os.path.join("engine", "data", "TEST_SAMPLE.csv"),
     )
