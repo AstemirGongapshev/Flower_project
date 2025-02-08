@@ -112,4 +112,4 @@ def server_fn(num_rounds: int) -> None:
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=50)
+    server_fn(num_rounds=40)

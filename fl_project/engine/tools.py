@@ -40,13 +40,18 @@ def set_model_parameters(model: torch.nn.Module, parameters: List[np.ndarray]) -
     model.load_state_dict(state_dict, strict=False)
 
 
+# def set_initial_parameters(model: torch.nn.Module) -> None:
+#     for param in model.parameters():
+#         if param.dim() > 1:
+#             nn.init.xavier_uniform_(param)
+#         else:
+#             nn.init.zeros_(param)
 def set_initial_parameters(model: torch.nn.Module) -> None:
     for param in model.parameters():
-        if param.dim() > 1:
-            nn.init.xavier_uniform_(param)
+        if param.dim() > 1:  
+            torch.nn.init.normal_(param, mean=0.0, std=1.0)
         else:
-            nn.init.zeros_(param)
-
+            torch.nn.init.zeros_(param)
 
 def prepare_data(
     df: pd.DataFrame,
