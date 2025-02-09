@@ -40,6 +40,7 @@ def aggregate_metrics(
 
     aggregated_metrics = {}
     total_samples = sum(num_examples for num_examples, _ in metrics_list)
+    print(f"ITS_METRICS_LIST:{metrics_list}")
 
     for _, metrics in metrics_list:
         for key, value in metrics.items():
@@ -108,8 +109,8 @@ def server_fn(num_rounds: int) -> None:
 
     # print(history.metrics_distributed,"\n",history.metrics_distributed["roc_auc_test"])
 
-    return save_metrics(history=history, is_prox=True)
+    return save_metrics(history=history)
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=40)
+    server_fn(num_rounds=50)

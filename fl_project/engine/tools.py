@@ -2,18 +2,18 @@ import os
 import numpy as np
 import pandas as pd
 import torch
-import json
+from sklearn.pipeline import Pipeline
 import torch.nn as nn
 from typing import List, Tuple, Dict, Optional
 import logging
 from torch.utils.data import DataLoader, TensorDataset
 from sklearn.preprocessing import MinMaxScaler, PolynomialFeatures
-from sklearn.model_selection import train_test_split
+from imblearn.combine import SMOTEENN
 from sklearn.metrics import roc_auc_score, accuracy_score, log_loss, f1_score
 from imblearn.over_sampling import SMOTE
 from tqdm import tqdm
-from datetime import datetime
-from flwr.common import NDArrays
+
+
 
 
 def get_data(file_path: str) -> pd.DataFrame:
@@ -53,6 +53,53 @@ def set_initial_parameters(model: torch.nn.Module) -> None:
         else:
             torch.nn.init.zeros_(param)
 
+# def prepare_data(
+#     df: pd.DataFrame,
+#     X_test: pd.DataFrame,
+#     y_test: pd.Series,
+#     random_state: int = 42,
+#     batch_size: int = 32,
+# ) -> Tuple[DataLoader, DataLoader, int]:
+#     if "Unnamed: 0" in df.columns:
+#         df = df.drop(columns=["Unnamed: 0"])
+#     if "Unnamed: 0" in X_test.columns:
+#         X_test = X_test.drop(columns=["Unnamed: 0"])
+
+#     try:
+#         X = df.drop(columns="Fraud")
+#         y = df["Fraud"]
+
+#         scaler = MinMaxScaler()
+#         X_train_scaled = scaler.fit_transform(X)
+#         X_test_scaled = scaler.transform(X_test)
+
+#         poly = PolynomialFeatures(degree=2, include_bias=False)
+#         X_train_poly = poly.fit_transform(X_train_scaled)
+#         X_test_poly = poly.transform(X_test_scaled)
+
+#         smote = SMOTE(random_state=random_state)
+#         X_train_resampled, y_train_resampled = smote.fit_resample(X_train_poly, y)
+
+#         X_train_tensor = torch.from_numpy(X_train_resampled.astype(np.float32))
+#         y_train_tensor = torch.from_numpy(y_train_resampled.to_numpy().astype(np.int64))
+
+#         X_test_tensor = torch.from_numpy(X_test_poly.astype(np.float32))
+#         y_test_tensor = torch.from_numpy(y_test.to_numpy().astype(np.int64))
+
+#         train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
+#         test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
+
+#         train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
+#         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
+
+#         input_dim = X_train_tensor.shape[1]
+#         return train_loader, test_loader, input_dim
+
+#     except Exception as e:
+#         logging.error(f"Failed to prepare data: {e}")
+#         raise
+
+
 def prepare_data(
     df: pd.DataFrame,
     X_test: pd.DataFrame,
@@ -60,31 +107,36 @@ def prepare_data(
     random_state: int = 42,
     batch_size: int = 32,
 ) -> Tuple[DataLoader, DataLoader, int]:
-    if "Unnamed: 0" in df.columns:
-        df = df.drop(columns=["Unnamed: 0"])
-    if "Unnamed: 0" in X_test.columns:
-        X_test = X_test.drop(columns=["Unnamed: 0"])
+  
+
+  
+    df = df.drop(columns=["Unnamed: 0"], errors="ignore")
+    X_test = X_test.drop(columns=["Unnamed: 0"], errors="ignore")
 
     try:
         X = df.drop(columns="Fraud")
         y = df["Fraud"]
 
-        scaler = MinMaxScaler()
-        X_train_scaled = scaler.fit_transform(X)
-        X_test_scaled = scaler.transform(X_test)
+    
+        pipeline = Pipeline([
+            ("scaler", MinMaxScaler()), 
+            ("poly", PolynomialFeatures(degree=2, include_bias=False))  
+        ])
 
-        poly = PolynomialFeatures(degree=2, include_bias=False)
-        X_train_poly = poly.fit_transform(X_train_scaled)
-        X_test_poly = poly.transform(X_test_scaled)
+        X_train_poly = pipeline.fit_transform(X)
+        X_test_poly = pipeline.transform(X_test)
 
-        smote = SMOTE(random_state=random_state)
-        X_train_resampled, y_train_resampled = smote.fit_resample(X_train_poly, y)
+        smoteenn = SMOTEENN(random_state=random_state)
+        X_train_resampled, y_train_resampled = smoteenn.fit_resample(X_train_poly, y)
 
-        X_train_tensor = torch.from_numpy(X_train_resampled.astype(np.float32))
-        y_train_tensor = torch.from_numpy(y_train_resampled.to_numpy().astype(np.int64))
+   
+        device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        X_test_tensor = torch.from_numpy(X_test_poly.astype(np.float32))
-        y_test_tensor = torch.from_numpy(y_test.to_numpy().astype(np.int64))
+        X_train_tensor = torch.tensor(X_train_resampled, dtype=torch.float32, device=device)
+        y_train_tensor = torch.tensor(y_train_resampled.to_numpy(), dtype=torch.int64, device=device)
+
+        X_test_tensor = torch.tensor(X_test_poly, dtype=torch.float32, device=device)
+        y_test_tensor = torch.tensor(y_test.to_numpy(), dtype=torch.int64, device=device)
 
         train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
         test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
@@ -92,12 +144,14 @@ def prepare_data(
         train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-        input_dim = X_train_tensor.shape[1]
+        input_dim = X_train_tensor.shape[1]  
+
         return train_loader, test_loader, input_dim
 
     except Exception as e:
-        logging.error(f"Failed to prepare data: {e}")
+        logging.error(f"❌ Ошибка при обработке данных: {e}")
         raise
+
 
 
 def train(
