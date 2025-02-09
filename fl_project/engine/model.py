@@ -2,6 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+
 class LogisticRegressionModel(nn.Module):
     def __init__(self, input_dim):
         super(LogisticRegressionModel, self).__init__()
@@ -19,7 +20,7 @@ class MLPModel(nn.Module):
         :param dropout: коэффициент Dropout для регуляризации
         """
         super(MLPModel, self).__init__()
-        
+
         layers = []
         prev_dim = input_dim
 

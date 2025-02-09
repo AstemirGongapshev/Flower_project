@@ -14,8 +14,6 @@ from imblearn.over_sampling import SMOTE
 from tqdm import tqdm
 
 
-
-
 def get_data(file_path: str) -> pd.DataFrame:
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"The file {file_path} does not exist.")
@@ -48,10 +46,11 @@ def set_model_parameters(model: torch.nn.Module, parameters: List[np.ndarray]) -
 #             nn.init.zeros_(param)
 def set_initial_parameters(model: torch.nn.Module) -> None:
     for param in model.parameters():
-        if param.dim() > 1:  
+        if param.dim() > 1:
             torch.nn.init.normal_(param, mean=0.0, std=1.0)
         else:
             torch.nn.init.zeros_(param)
+
 
 # def prepare_data(
 #     df: pd.DataFrame,
@@ -107,9 +106,7 @@ def prepare_data(
     random_state: int = 42,
     batch_size: int = 32,
 ) -> Tuple[DataLoader, DataLoader, int]:
-  
 
-  
     df = df.drop(columns=["Unnamed: 0"], errors="ignore")
     X_test = X_test.drop(columns=["Unnamed: 0"], errors="ignore")
 
@@ -117,11 +114,12 @@ def prepare_data(
         X = df.drop(columns="Fraud")
         y = df["Fraud"]
 
-    
-        pipeline = Pipeline([
-            ("scaler", MinMaxScaler()), 
-            ("poly", PolynomialFeatures(degree=2, include_bias=False))  
-        ])
+        pipeline = Pipeline(
+            [
+                ("scaler", MinMaxScaler()),
+                ("poly", PolynomialFeatures(degree=2, include_bias=False)),
+            ]
+        )
 
         X_train_poly = pipeline.fit_transform(X)
         X_test_poly = pipeline.transform(X_test)
@@ -129,14 +127,19 @@ def prepare_data(
         smoteenn = SMOTEENN(random_state=random_state)
         X_train_resampled, y_train_resampled = smoteenn.fit_resample(X_train_poly, y)
 
-   
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-        X_train_tensor = torch.tensor(X_train_resampled, dtype=torch.float32, device=device)
-        y_train_tensor = torch.tensor(y_train_resampled.to_numpy(), dtype=torch.int64, device=device)
+        X_train_tensor = torch.tensor(
+            X_train_resampled, dtype=torch.float32, device=device
+        )
+        y_train_tensor = torch.tensor(
+            y_train_resampled.to_numpy(), dtype=torch.int64, device=device
+        )
 
         X_test_tensor = torch.tensor(X_test_poly, dtype=torch.float32, device=device)
-        y_test_tensor = torch.tensor(y_test.to_numpy(), dtype=torch.int64, device=device)
+        y_test_tensor = torch.tensor(
+            y_test.to_numpy(), dtype=torch.int64, device=device
+        )
 
         train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
         test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
@@ -144,14 +147,13 @@ def prepare_data(
         train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
 
-        input_dim = X_train_tensor.shape[1]  
+        input_dim = X_train_tensor.shape[1]
 
         return train_loader, test_loader, input_dim
 
     except Exception as e:
         logging.error(f"❌ Ошибка при обработке данных: {e}")
         raise
-
 
 
 def train(

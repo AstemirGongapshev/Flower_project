@@ -54,7 +54,7 @@ def client_fn(file_path_train, file_path_test):
 
     set_initial_parameters(model)
     print(f"ITS INITIAL PARAMETERS Model initialized: {model.parameters()}")
-    print("="*10)
+    print("=" * 10)
     print(f"GET MODEL PARAMETERS Model parameters: {get_model_parameters(model)}")
     return fl.client.start_client(
         server_address="127.0.0.1:8080",
