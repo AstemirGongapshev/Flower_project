@@ -103,7 +103,7 @@ def prepare_data(
     df: pd.DataFrame,
     X_test: pd.DataFrame,
     y_test: pd.Series,
-    random_state: int = 42,
+    random_state: int = 321,
     batch_size: int = 32,
 ) -> Tuple[DataLoader, DataLoader, int]:
 
@@ -152,7 +152,7 @@ def prepare_data(
         return train_loader, test_loader, input_dim
 
     except Exception as e:
-        logging.error(f"❌ Ошибка при обработке данных: {e}")
+        logging.error(f"Ошибка при обработке данных: {e}")
         raise
 
 
@@ -162,13 +162,15 @@ def train(
     lr: float,
     num_epochs: int,
     device: str,
+    is_proximal=False,
     proximal_mu=0,
     global_params: Optional[List[np.ndarray]] = None,
 ) -> None:
     try:
         model.to(device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.AdamW(model.parameters(), lr=lr)
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr) # TODO optimize = torch.optim.SGD()
+        
 
         for epoch in range(num_epochs):
             model.train()
@@ -186,6 +188,7 @@ def train(
                 outputs = model(inputs)
                 loss = criterion(outputs, labels)
 
+            if is_proximal:
                 print(f"ITS FEDPROX with proxy:{proximal_mu}")
                 proximal_term = 0.0
                 # # print(F"global_params:{global_params}")
@@ -197,10 +200,10 @@ def train(
                     proximal_term += torch.norm(local_param - global_tensor, p=2) ** 2
                 loss += (proximal_mu / 2) * proximal_term
 
-                loss.backward()
-                optimizer.step()
+            loss.backward()
+            optimizer.step()
 
-                epoch_loss += loss.item()
+            epoch_loss += loss.item()
 
     except Exception as e:
         logging.error(f"Training failed: {e}")

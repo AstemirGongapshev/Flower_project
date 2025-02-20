@@ -1,0 +1,86 @@
+[I 2025-02-20 21:47:29,561] A new study created in memory with name: no-name-941d983d-7f2b-4dfa-9430-709fc311fbf6
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:47:37,551] Trial 0 finished with value: 0.8002725481076366 and parameters: {'lr': 0.05753027348692624, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:47:45,290] Trial 1 finished with value: 0.7753052593097982 and parameters: {'lr': 0.00039971762384645264, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:47:53,687] Trial 2 finished with value: 0.7879065373541116 and parameters: {'lr': 0.008013845515202385, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:02,026] Trial 3 finished with value: 0.7830808432703602 and parameters: {'lr': 0.0035274674832496003, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:11,014] Trial 4 finished with value: 0.7668121101123311 and parameters: {'lr': 1.3888268011539146e-05, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:19,322] Trial 5 finished with value: 0.7977325662413154 and parameters: {'lr': 0.026461625071247566, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:32,035] Trial 6 finished with value: 0.7818040657807346 and parameters: {'lr': 0.0028819488838918656, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:40,868] Trial 7 finished with value: 0.6827673948490941 and parameters: {'lr': 2.4661698788235907e-05, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:48:51,318] Trial 8 finished with value: 0.7843992449729714 and parameters: {'lr': 0.0033161632418155064, 'optimizer': 'SGD'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:49:01,158] Trial 9 finished with value: 0.8002128264107441 and parameters: {'lr': 0.001149163831362647, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:49:11,119] Trial 10 finished with value: 0.7780777938443219 and parameters: {'lr': 0.07585989382298741, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[I 2025-02-20 21:49:21,334] Trial 11 finished with value: 0.7949084538776574 and parameters: {'lr': 0.00032052741145131077, 'optimizer': 'AdamW'}. Best is trial 0 with value: 0.8002725481076366.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py:14: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-1)
+[W 2025-02-20 21:49:24,708] Trial 12 failed with parameters: {'lr': 7.230752109387504e-05, 'optimizer': 'AdamW'} because of the following error: KeyboardInterrupt().
+Traceback (most recent call last):
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\optuna\study\_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "C:\Users\Астемир\AppData\Local\Temp\ipykernel_17388\1813763819.py", line 18, in objective
+    train_loader, test_loader, input_dim = prepare_data(train_data, test_data.drop(columns="Fraud"), test_data.Fraud)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\tools.py", line 128, in prepare_data
+    X_train_resampled, y_train_resampled = smoteenn.fit_resample(X_train_poly, y)
+                                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\base.py", line 202, in fit_resample
+    return super().fit_resample(X, y, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\base.py", line 105, in fit_resample
+    output = self._fit_resample(X, y, **params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\combine\_smote_enn.py", line 160, in _fit_resample
+    return self.enn_.fit_resample(X_res, y_res)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\base.py", line 202, in fit_resample
+    return super().fit_resample(X, y, **params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\sklearn\base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\base.py", line 105, in fit_resample
+    output = self._fit_resample(X, y, **params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\imblearn\under_sampling\_prototype_selection\_edited_nearest_neighbours.py", line 168, in _fit_resample
+    nnhood_idx = self.nn_.kneighbors(X_class, return_distance=False)[:, 1:]
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\sklearn\neighbors\_base.py", line 869, in kneighbors
+    results = ArgKmin.compute(
+              ^^^^^^^^^^^^^^^^
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\sklearn\metrics\_pairwise_distances_reduction\_dispatcher.py", line 281, in compute
+    return ArgKmin64.compute(
+           ^^^^^^^^^^^^^^^^^^
+  File "sklearn\\metrics\\_pairwise_distances_reduction\\_argkmin.pyx", line 59, in sklearn.metrics._pairwise_distances_reduction._argkmin.ArgKmin64.compute
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\threadpoolctl.py", line 592, in __exit__
+    def __exit__(self, type, value, traceback):
+
+KeyboardInterrupt
+[W 2025-02-20 21:49:24,721] Trial 12 failed with value None.

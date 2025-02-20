@@ -1,0 +1,7 @@
+{"time":"2025-02-20T21:47:28.6285346+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"c:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\engine\\wandb\\run-20250220_214728-hdebauar\\logs\\debug-core.log"}
+{"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"created new stream","id":"hdebauar"}
+{"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"stream: started","id":"hdebauar"}
+{"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"hdebauar"}
+{"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"handler: started","stream_id":"hdebauar"}
+{"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"sender: started","stream_id":"hdebauar"}
+{"time":"2025-02-20T21:47:29.2616607+03:00","level":"INFO","msg":"Starting system monitor"}

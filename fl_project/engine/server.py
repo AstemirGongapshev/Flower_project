@@ -6,29 +6,47 @@ from flwr.server.client_proxy import ClientProxy
 from flwr.server.strategy import FedAvg
 from typing import List, Tuple, Dict, Optional, Union
 from flwr.server import History
+from datetime import datetime
 
 roc_auc_history = []
 MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
 
 
+
+
 def save_metrics(history, is_prox=False):
-    path = "prox_metrics.json" if is_prox else "fed_avg_metrics.json"
-
+    path = "prox_metrics.json_sgd" if is_prox else "fed_avg_metrics_sgd.json"
+    
     try:
-        results = {
-            key: history.metrics_distributed[val]
-            for key, val in {
-                "Loss": "logloss_test",
-                "ROC_AUC": "roc_auc_test",
-                "Accuracy": "accuracy_test",
-                "F1_Score": "f1_test",
-            }.items()
-        }
 
+        new_experiment = {
+            "timestamp": datetime.now().isoformat(),
+            "Loss": history.metrics_distributed.get("logloss_test"),
+            "ROC_AUC": history.metrics_distributed.get("roc_auc_test"),
+            "Accuracy": history.metrics_distributed.get("accuracy_test"),
+            "F1_Score": history.metrics_distributed.get("f1_test"),
+        }
+        
+
+        if os.path.exists(path):
+            with open(path, "r") as f:
+                try:
+                    data = json.load(f)
+                except json.JSONDecodeError:
+                    data = []  
+        else:
+            data = []
+        
+        
+        data.append(new_experiment)
+        
+        
         with open(path, "w") as f:
-            json.dump(results, f, indent=4)
+            json.dump(data, f, indent=4)
+        
     except Exception as e:
         print(f"Error saving metrics: {e}")
+
 
 
 def aggregate_metrics(
@@ -46,7 +64,7 @@ def aggregate_metrics(
         for key, value in metrics.items():
             if key not in aggregated_metrics:
                 aggregated_metrics[key] = 0.0
-            aggregated_metrics[key] += value * (_ / total_samples)
+            aggregated_metrics[key] += value* (_ / total_samples)
 
     return aggregated_metrics
 
@@ -97,9 +115,9 @@ def server_fn(num_rounds: int) -> None:
 
     config = fl.server.ServerConfig(num_rounds=num_rounds)
     strategy = FedAvgCustom(
-        min_fit_clients=6,
-        min_evaluate_clients=6,
-        min_available_clients=6,
+        min_fit_clients=2,
+        min_evaluate_clients=2,
+        min_available_clients=2,
         fit_metrics_aggregation_fn=aggregate_metrics,
         evaluate_metrics_aggregation_fn=aggregate_metrics,
     )
@@ -113,4 +131,4 @@ def server_fn(num_rounds: int) -> None:
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=50)
+    server_fn(num_rounds=30)

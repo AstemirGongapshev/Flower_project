@@ -1,0 +1,31 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-02-20T18:35:27.693557Z",
+  "program":  "c:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\engine\\sample_test.ipynb",
+  "codePath":  "fl_project\\engine\\sample_test.ipynb",
+  "git":  {
+    "remote":  "https://github.com/AstemirGongapshev/Flower_project.git",
+    "commit":  "f35556809e751c715e49625d1824a60d6836038f"
+  },
+  "email":  "astemirg001@gmail.com",
+  "root":  "c:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\engine",
+  "host":  "KOMPUTER",
+  "executable":  "c:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\.venv\\Scripts\\python.exe",
+  "codePathLocal":  "sample_test.ipynb",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "511987150848",
+      "used":  "387950194688"
+    }
+  },
+  "memory":  {
+    "total":  "7879585792"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}
