@@ -4,3 +4,403 @@
 2025-02-23 17:56:24,080 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
 config: {'_wandb': {}}
 2025-02-23 17:56:24,080 INFO    MainThread:12220 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-23 17:56:30,473 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:56:30,473 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:18,536 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:18,575 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:18,582 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:19,393 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:19,402 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:19,402 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:21,411 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:21,441 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:21,441 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:22,903 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:22,929 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:22,931 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:25,361 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:25,392 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:25,392 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:27,123 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:27,126 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:27,126 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:38,215 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:38,226 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 17:58:38,231 INFO    MainThread:12220 [wandb_init.py:_pause_backend():554] pausing backend
+2025-02-23 17:58:40,102 INFO    MainThread:12220 [wandb_init.py:_resume_backend():559] resuming backend
+2025-02-23 17:58:40,112 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_175840-pgu5klb2\logs\debug.log
+2025-02-23 17:58:40,114 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_175840-pgu5klb2\logs\debug-internal.log
+2025-02-23 17:58:40,114 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 17:58:40,114 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 17:58:40,114 INFO    MainThread:12220 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-23 18:02:45,196 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/gzr5s89r
+2025-02-23 18:02:45,210 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:02:45,210 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:02:45,210 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:02:45,218 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:02:45,218 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:02:45,218 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:02:48,145 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:02:48,153 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:02:48,159 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:10:37,124 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181037-i4c22yav\logs\debug.log
+2025-02-23 18:10:37,125 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181037-i4c22yav\logs\debug-internal.log
+2025-02-23 18:10:37,126 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D03407AA0>
+2025-02-23 18:10:37,127 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:10:37,128 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:10:37,129 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:10:37,129 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:10:37,147 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:10:37,154 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:10:37,172 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:10:37,176 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:10:37,177 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:10:37,291 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:10:37,764 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:10:38,100 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:10:38,102 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:10:38,102 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:10:38,102 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:10:38,105 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:10:58,092 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/i4c22yav
+2025-02-23 18:10:58,093 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:10:58,093 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:10:58,094 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:10:58,094 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:10:58,094 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:10:58,095 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:11:00,322 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:11:00,322 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:11:00,322 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181100-25pjzr9h\logs\debug.log
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181100-25pjzr9h\logs\debug-internal.log
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D05671F40>
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:11:00,331 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:11:00,338 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:11:00,341 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:11:00,345 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:11:00,346 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:11:00,346 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:11:00,386 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:11:00,789 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:11:00,968 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:11:00,970 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:11:00,970 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:11:00,970 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:11:00,971 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:11:19,211 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/25pjzr9h
+2025-02-23 18:11:19,213 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:11:19,213 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:11:19,213 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:11:19,213 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:11:19,213 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:11:19,213 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:11:21,781 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:11:21,781 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:11:21,783 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:11:21,795 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181121-xicmqen8\logs\debug.log
+2025-02-23 18:11:21,795 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181121-xicmqen8\logs\debug-internal.log
+2025-02-23 18:11:21,795 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D0566C410>
+2025-02-23 18:11:21,795 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:11:21,797 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:11:21,797 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:11:21,797 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:11:21,797 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:11:21,801 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:11:21,803 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:11:21,805 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:11:21,805 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:11:21,837 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:11:22,282 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:11:22,504 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:11:22,505 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:11:22,506 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:11:22,506 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:11:22,508 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:11:44,713 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/xicmqen8
+2025-02-23 18:11:44,714 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:11:44,714 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:11:44,714 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:11:44,715 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:11:44,715 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:11:44,715 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:11:47,335 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:11:47,335 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:11:47,335 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181147-q5hpw00q\logs\debug.log
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181147-q5hpw00q\logs\debug-internal.log
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D02F275F0>
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:11:47,347 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:11:47,351 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:11:47,354 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:11:47,357 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:11:47,358 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:11:47,358 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:11:47,403 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:11:47,858 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:11:48,027 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:11:48,028 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:11:48,028 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:11:48,028 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:11:48,029 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:12:07,302 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/q5hpw00q
+2025-02-23 18:12:07,303 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:12:07,303 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:12:07,303 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:12:07,303 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:12:07,303 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:12:07,303 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:12:09,916 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:12:09,917 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:12:09,917 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181209-ipjmq0cd\logs\debug.log
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181209-ipjmq0cd\logs\debug-internal.log
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D03407140>
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:12:09,927 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:12:09,932 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:12:09,934 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:12:09,937 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:12:09,938 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:12:09,938 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:12:09,979 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:12:10,458 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:12:10,609 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:12:10,610 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:12:10,610 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:12:10,610 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:12:10,611 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:12:29,084 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/ipjmq0cd
+2025-02-23 18:12:29,086 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:12:29,086 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:12:29,086 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:12:29,086 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:12:29,086 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:12:29,086 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:12:31,704 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:12:31,705 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:12:31,705 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:12:31,718 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181231-60vxz3mt\logs\debug.log
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181231-60vxz3mt\logs\debug-internal.log
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D056292E0>
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:12:31,719 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:12:31,723 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:12:31,727 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:12:31,728 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:12:31,729 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:12:31,759 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:12:32,187 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:12:32,380 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:12:32,381 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:12:32,382 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:12:32,382 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:12:32,388 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:12:52,215 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/60vxz3mt
+2025-02-23 18:12:52,216 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:12:52,216 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:12:52,216 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:12:52,216 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:12:52,216 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:12:52,217 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:12:54,437 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:12:54,437 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:12:54,440 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181254-ea1m6h08\logs\debug.log
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181254-ea1m6h08\logs\debug-internal.log
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D0566DF40>
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:12:54,452 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:12:54,457 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:12:54,459 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:12:54,462 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:12:54,465 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:12:54,465 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:12:54,508 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:12:55,015 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:12:55,211 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:12:55,211 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:12:55,212 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:12:55,212 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:12:55,213 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:13:30,660 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/ea1m6h08
+2025-02-23 18:13:30,661 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:13:30,661 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:13:30,661 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:13:30,661 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:13:30,661 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:13:30,661 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:13:33,467 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:13:33,469 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:13:33,469 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181333-gs7pb792\logs\debug.log
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181333-gs7pb792\logs\debug-internal.log
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D05626990>
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:13:33,476 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:13:33,486 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:13:33,487 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:13:33,491 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:13:33,492 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:13:33,492 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:13:33,542 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:13:33,963 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:13:34,133 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:13:34,134 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:13:34,135 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:13:34,136 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:13:34,137 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:14:02,857 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/gs7pb792
+2025-02-23 18:14:02,858 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:14:02,858 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:14:02,858 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:14:02,858 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:14:02,858 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:14:02,858 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:14:05,427 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:14:05,429 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:14:05,430 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181405-yhteos5t\logs\debug.log
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181405-yhteos5t\logs\debug-internal.log
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D02B89880>
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:14:05,437 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:14:05,443 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:14:05,446 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:14:05,449 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:14:05,450 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:14:05,450 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:14:05,494 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:14:05,943 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:14:06,106 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:14:06,107 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:14:06,107 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:14:06,107 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:14:06,109 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:14:24,802 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/yhteos5t
+2025-02-23 18:14:24,804 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:14:24,804 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:14:24,804 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:14:24,804 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:14:24,804 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:14:24,804 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:14:27,384 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:14:27,384 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:14:27,384 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181427-6owreoyh\logs\debug.log
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181427-6owreoyh\logs\debug-internal.log
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D05678620>
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:14:27,400 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:14:27,405 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:14:27,407 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:14:27,408 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:14:27,409 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:14:27,447 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:14:27,922 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:14:28,093 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:14:28,095 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:14:28,096 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:14:28,096 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:14:28,097 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:14:41,587 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/6owreoyh
+2025-02-23 18:14:41,589 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:14:41,589 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:14:41,589 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:14:41,589 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:14:41,589 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:14:41,589 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:14:43,949 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:14:43,950 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:14:43,950 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:14:43,964 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181443-q1e6r3ny\logs\debug.log
+2025-02-23 18:14:43,964 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181443-q1e6r3ny\logs\debug-internal.log
+2025-02-23 18:14:43,964 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D0562BAD0>
+2025-02-23 18:14:43,964 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:14:43,966 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:14:43,967 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:14:43,967 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:14:43,967 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:14:43,970 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:14:43,974 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:14:43,975 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:14:43,975 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:14:44,013 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:14:44,458 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:14:44,624 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:14:44,625 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:14:44,626 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:14:44,626 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:14:44,627 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:14:56,263 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/q1e6r3ny
+2025-02-23 18:14:56,264 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:14:56,264 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:14:56,264 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:14:56,264 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:14:56,264 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:14:56,265 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:14:58,931 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:14:58,931 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:14:58,931 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files
+2025-02-23 18:14:58,941 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181458-p1jojmca\logs\debug.log
+2025-02-23 18:14:58,941 INFO    MainThread:12220 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250223_181458-p1jojmca\logs\debug-internal.log
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [wandb_init.py:monkeypatch_ipython():589] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000017D02D72270>
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [wandb_init.py:init():756] calling init triggers
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [wandb_init.py:init():789] starting backend
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [wandb_init.py:init():793] sending inform_init request
+2025-02-23 18:14:58,947 INFO    MainThread:12220 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-23 18:14:58,951 INFO    MainThread:12220 [wandb_init.py:init():808] backend started and connected
+2025-02-23 18:14:58,954 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-23 18:14:58,956 INFO    MainThread:12220 [wandb_run.py:_label_probe_notebook():1206] Unable to probe notebook: 'charmap' codec can't decode byte 0x98 in position 266059: character maps to <undefined>
+2025-02-23 18:14:58,956 INFO    MainThread:12220 [wandb_init.py:init():901] updated telemetry
+2025-02-23 18:14:59,003 INFO    MainThread:12220 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-23 18:14:59,472 INFO    MainThread:12220 [wandb_init.py:init():994] starting run threads in backend
+2025-02-23 18:14:59,628 INFO    MainThread:12220 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-23 18:14:59,629 INFO    MainThread:12220 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-23 18:14:59,629 INFO    MainThread:12220 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-23 18:14:59,629 INFO    MainThread:12220 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-23 18:14:59,633 INFO    MainThread:12220 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-23 18:15:09,335 INFO    MainThread:12220 [wandb_run.py:_finish():2110] finishing run astemirg001-some/my-first-project/p1jojmca
+2025-02-23 18:15:09,338 ERROR   MainThread:12220 [jupyter.py:save_history():450] Run pip install nbformat to save notebook history
+2025-02-23 18:15:09,338 INFO    MainThread:12220 [jupyter.py:save_ipynb():386] not saving jupyter notebook
+2025-02-23 18:15:09,338 INFO    MainThread:12220 [wandb_init.py:_jupyter_teardown():571] cleaning up jupyter logic
+2025-02-23 18:15:09,338 INFO    MainThread:12220 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-23 18:15:09,338 INFO    MainThread:12220 [wandb_run.py:_restore():2332] restore
+2025-02-23 18:15:09,338 INFO    MainThread:12220 [wandb_run.py:_restore():2338] restore done
+2025-02-23 18:15:11,952 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-23 18:15:11,952 INFO    MainThread:12220 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-23 18:15:11,954 INFO    MainThread:12220 [wandb_run.py:_footer_sync_info():3924] logging synced files

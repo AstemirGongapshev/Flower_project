@@ -169,8 +169,9 @@ def train(
     try:
         model.to(device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.SGD(model.parameters(), lr=lr) # TODO optimize = torch.optim.SGD()
-        
+        optimizer = torch.optim.SGD(
+            model.parameters(), lr=lr
+        )  # TODO optimize = torch.optim.SGD()
 
         for epoch in range(num_epochs):
             model.train()

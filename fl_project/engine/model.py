@@ -20,14 +20,12 @@ class MLPModel(nn.Module):
         layers = []
         prev_dim = input_dim
 
-
         for hidden_dim in hidden_dims:
             layers.append(nn.Linear(prev_dim, hidden_dim))
             layers.append(nn.ReLU())
-            layers.append(nn.Dropout(dropout))  
+            layers.append(nn.Dropout(dropout))
             prev_dim = hidden_dim
 
-        
         layers.append(nn.Linear(prev_dim, 2))
 
         self.model = nn.Sequential(*layers)

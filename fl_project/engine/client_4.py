@@ -28,7 +28,7 @@ class FlowerClient(NumPyClient):
         train(
             self.model,
             self.trainloader,
-            lr=0.01, #TODO AppTune
+            lr=0.01,  # TODO AppTune
             num_epochs=1,
             device=self.device,
             proximal_mu=0.0,

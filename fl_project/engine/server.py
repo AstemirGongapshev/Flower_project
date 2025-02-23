@@ -12,11 +12,9 @@ roc_auc_history = []
 MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
 
 
-
-
 def save_metrics(history, is_prox=False):
     path = "prox_metrics.json_sgd" if is_prox else "fed_avg_metrics_sgd.json"
-    
+
     try:
 
         new_experiment = {
@@ -26,27 +24,23 @@ def save_metrics(history, is_prox=False):
             "Accuracy": history.metrics_distributed.get("accuracy_test"),
             "F1_Score": history.metrics_distributed.get("f1_test"),
         }
-        
 
         if os.path.exists(path):
             with open(path, "r") as f:
                 try:
                     data = json.load(f)
                 except json.JSONDecodeError:
-                    data = []  
+                    data = []
         else:
             data = []
-        
-        
+
         data.append(new_experiment)
-        
-        
+
         with open(path, "w") as f:
             json.dump(data, f, indent=4)
-        
+
     except Exception as e:
         print(f"Error saving metrics: {e}")
-
 
 
 def aggregate_metrics(
@@ -64,7 +58,7 @@ def aggregate_metrics(
         for key, value in metrics.items():
             if key not in aggregated_metrics:
                 aggregated_metrics[key] = 0.0
-            aggregated_metrics[key] += value* (_ / total_samples)
+            aggregated_metrics[key] += value * (_ / total_samples)
 
     return aggregated_metrics
 
