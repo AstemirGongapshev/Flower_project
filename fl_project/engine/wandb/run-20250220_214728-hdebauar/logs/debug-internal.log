@@ -5,3 +5,4 @@
 {"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"handler: started","stream_id":"hdebauar"}
 {"time":"2025-02-20T21:47:28.7447857+03:00","level":"INFO","msg":"sender: started","stream_id":"hdebauar"}
 {"time":"2025-02-20T21:47:29.2616607+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-20T21:49:26.7841772+03:00","level":"INFO","msg":"Pausing system monitor"}

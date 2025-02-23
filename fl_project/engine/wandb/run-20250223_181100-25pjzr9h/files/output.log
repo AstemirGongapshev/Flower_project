@@ -1,0 +1,62 @@
+[I 2025-02-23 18:11:00,972] A new study created in memory with name: no-name-d5f4dd25-59a2-4da5-bf5d-6935f8d70140
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:02,344] Trial 0 finished with value: 0.7620741888255277 and parameters: {'optimizer': 'AdamW', 'lr': 5.062941117038904e-05, 'momentum': 0.8122585617213733}. Best is trial 0 with value: 0.7620741888255277.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:03,278] Trial 1 finished with value: 0.7827994273956093 and parameters: {'optimizer': 'AdamW', 'lr': 0.0005217588426357047, 'momentum': 0.6535818518872623}. Best is trial 1 with value: 0.7827994273956093.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:04,052] Trial 2 finished with value: 0.784469825160208 and parameters: {'optimizer': 'SGD', 'lr': 0.0015888208187388485, 'momentum': 0.9797276225659749}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:04,980] Trial 3 finished with value: 0.7788161711877198 and parameters: {'optimizer': 'AdamW', 'lr': 0.00041096273520508774, 'momentum': 0.9818419130608653}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:05,783] Trial 4 finished with value: 0.781165224598824 and parameters: {'optimizer': 'SGD', 'lr': 0.004974685314408234, 'momentum': 0.8335262927230334}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:06,789] Trial 5 finished with value: 0.7764218740668484 and parameters: {'optimizer': 'SGD', 'lr': 0.0007916595279311372, 'momentum': 0.8313349307493013}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:07,653] Trial 6 finished with value: 0.758398589844054 and parameters: {'optimizer': 'SGD', 'lr': 0.0007359609270580106, 'momentum': 0.5225205522060715}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:08,656] Trial 7 finished with value: 0.7778352875599704 and parameters: {'optimizer': 'SGD', 'lr': 0.0026680316628594743, 'momentum': 0.8033987228403793}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:09,643] Trial 8 finished with value: 0.7668356368414099 and parameters: {'optimizer': 'AdamW', 'lr': 7.66072875772869e-05, 'momentum': 0.5709615111053515}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:10,437] Trial 9 finished with value: 0.7665804623183238 and parameters: {'optimizer': 'SGD', 'lr': 0.00047896507265299466, 'momentum': 0.7808386800606932}. Best is trial 2 with value: 0.784469825160208.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:11,272] Trial 10 finished with value: 0.7868767905198141 and parameters: {'optimizer': 'SGD', 'lr': 0.009862799623637217, 'momentum': 0.9571753997744302}. Best is trial 10 with value: 0.7868767905198141.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:12,222] Trial 11 finished with value: 0.7885996709877426 and parameters: {'optimizer': 'SGD', 'lr': 0.007974379743218898, 'momentum': 0.9854917857955919}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:13,070] Trial 12 finished with value: 0.7838671789461111 and parameters: {'optimizer': 'SGD', 'lr': 0.009359153029522777, 'momentum': 0.9074612211514244}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:13,880] Trial 13 finished with value: 0.5472136208902876 and parameters: {'optimizer': 'SGD', 'lr': 1.3414376456745882e-05, 'momentum': 0.9098335111407108}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:14,745] Trial 14 finished with value: 0.7786062403744008 and parameters: {'optimizer': 'SGD', 'lr': 0.005538334888866373, 'momentum': 0.6897911849412959}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:15,538] Trial 15 finished with value: 0.7813226727088133 and parameters: {'optimizer': 'SGD', 'lr': 0.002137145725256167, 'momentum': 0.8986956630677623}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:16,436] Trial 16 finished with value: 0.7862623809411777 and parameters: {'optimizer': 'SGD', 'lr': 0.00893053313805603, 'momentum': 0.9893116688046594}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:17,307] Trial 17 finished with value: 0.770429797145303 and parameters: {'optimizer': 'SGD', 'lr': 0.00013650490884227476, 'momentum': 0.9308287287603016}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:18,224] Trial 18 finished with value: 0.785673307840011 and parameters: {'optimizer': 'AdamW', 'lr': 0.0034812737077618053, 'momentum': 0.8749890469904424}. Best is trial 11 with value: 0.7885996709877426.
+C:\Users\Астемир\AppData\Local\Temp\ipykernel_12220\469718015.py:29: FutureWarning: suggest_loguniform has been deprecated in v3.0.0. This feature will be removed in v6.0.0. See https://github.com/optuna/optuna/releases/tag/v3.0.0. Use suggest_float(..., log=True) instead.
+  lr = trial.suggest_loguniform("lr", 1e-5, 1e-2)
+[I 2025-02-23 18:11:19,209] Trial 19 finished with value: 0.7728910549566294 and parameters: {'optimizer': 'SGD', 'lr': 0.001295009349912173, 'momentum': 0.7522695919438221}. Best is trial 11 with value: 0.7885996709877426.
+Лучшие параметры для df2_iid: {'optimizer': 'SGD', 'lr': 0.007974379743218898, 'momentum': 0.9854917857955919}
