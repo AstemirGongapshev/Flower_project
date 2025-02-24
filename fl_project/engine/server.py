@@ -1,6 +1,7 @@
 import flwr as fl
 import os
 import json
+import wandb
 from flwr.common import Parameters, Scalar
 from flwr.server.client_proxy import ClientProxy
 from flwr.server.strategy import FedAvg
@@ -12,11 +13,17 @@ roc_auc_history = []
 MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
 
 
+wandb.init(
+    project="federated-learning_2",
+    name="server_fedavg $5 epochs",
+    config={"num_rounds": 20},
+)
+
+
 def save_metrics(history, is_prox=False):
     path = "prox_metrics.json_sgd" if is_prox else "fed_avg_metrics_sgd.json"
 
     try:
-
         new_experiment = {
             "timestamp": datetime.now().isoformat(),
             "Loss": history.metrics_distributed.get("logloss_test"),
@@ -46,7 +53,6 @@ def save_metrics(history, is_prox=False):
 def aggregate_metrics(
     metrics_list: List[Tuple[int, Dict[str, Scalar]]]
 ) -> Dict[str, Scalar]:
-
     if not metrics_list:
         return {}
 
@@ -93,6 +99,19 @@ class FedAvgCustom(FedAvg):
         print(
             f"📊 [Round {server_round}] Aggregated evaluation metrics: {metrics_aggregated}"
         )
+
+        # Логирование в wandb
+        wandb.log(
+            {
+                "server_round": server_round,
+                "Loss": loss_aggregated,
+                "ROC_AUC": metrics_aggregated.get("roc_auc_test", None),
+                "Accuracy": metrics_aggregated.get("accuracy_test", None),
+                "F1_Score": metrics_aggregated.get("f1_test", None),
+            }
+        )
+
+        # Добавляем историю ROC AUC
         if "roc_auc_test" in metrics_aggregated:
             roc_auc_history.append(metrics_aggregated["roc_auc_test"])
 
@@ -102,6 +121,7 @@ class FedAvgCustom(FedAvg):
                     print(
                         f"⚠️ Early stopping warning: ROC AUC has been decreasing for {MAX_ROUNDS_WITHOUT_IMPROVEMENT} rounds!"
                     )
+
         return loss_aggregated, metrics_aggregated
 
 
@@ -109,9 +129,9 @@ def server_fn(num_rounds: int) -> None:
 
     config = fl.server.ServerConfig(num_rounds=num_rounds)
     strategy = FedAvgCustom(
-        min_fit_clients=2,
-        min_evaluate_clients=2,
-        min_available_clients=2,
+        min_fit_clients=6,
+        min_evaluate_clients=6,
+        min_available_clients=6,
         fit_metrics_aggregation_fn=aggregate_metrics,
         evaluate_metrics_aggregation_fn=aggregate_metrics,
     )
@@ -119,10 +139,10 @@ def server_fn(num_rounds: int) -> None:
         server_address="0.0.0.0:8080", strategy=strategy, config=config
     )
 
-    # print(history.metrics_distributed,"\n",history.metrics_distributed["roc_auc_test"])
-
-    return save_metrics(history=history)
+    # Сохраняем метрики и завершаем wandb
+    save_metrics(history=history)
+    wandb.finish()
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=30)
+    server_fn(num_rounds=20)

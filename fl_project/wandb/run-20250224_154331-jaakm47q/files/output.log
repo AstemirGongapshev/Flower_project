@@ -1,0 +1,479 @@
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.server.start_server() is deprecated.
+	Instead, use the `flower-superlink` CLI command to start a SuperLink as shown below:
+
+		$ flower-superlink --insecure
+
+	To view usage and all available options, run:
+
+		$ flower-superlink --help
+
+	Using `start_server()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+
+[92mINFO [0m:      Starting Flower server, config: num_rounds=30, no round_timeout
+[92mINFO [0m:      Flower ECE: gRPC server running (30 rounds), SSL is disabled
+[92mINFO [0m:      [INIT]
+[92mINFO [0m:      Requesting initial parameters from one random client
+[93mWARNING [0m:   Failed to receive initial parameters from the client. Empty initial parameters will be used.
+[92mINFO [0m:      Starting evaluation of initial global parameters
+[92mINFO [0m:      Evaluation returned no results (`None`)
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 1]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (3299, {}), (2448, {}), (1282, {}), (4851, {}), (5726, {})]
+📊 [Round 1] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.07425421530479896, 'f1_test': 0.11801050355267223, 'logloss_test': 6.2493610321454485, 'roc_auc_test': 0.58051932539819}), (3084, {'accuracy_test': 0.07068741893644617, 'f1_test': 0.11761083743842364, 'logloss_test': 6.595906172065928, 'roc_auc_test': 0.5869240249528108}), (3084, {'accuracy_test': 0.08138780804150454, 'f1_test': 0.1188180404354588, 'logloss_test': 5.200305523595918, 'roc_auc_test': 0.6148375841306782}), (3084, {'accuracy_test': 0.06939040207522698, 'f1_test': 0.11746617466174662, 'logloss_test': 6.701386700914051, 'roc_auc_test': 0.5800976540231612}), (3084, {'accuracy_test': 0.06939040207522698, 'f1_test': 0.11746617466174662, 'logloss_test': 7.6619578660811465, 'roc_auc_test': 0.6133572099471011}), (3084, {'accuracy_test': 0.08300907911802853, 'f1_test': 0.11900311526479751, 'logloss_test': 4.887708119560958, 'roc_auc_test': 0.6195610274303563})]
+📊 [Round 1] Aggregated evaluation metrics: {'accuracy_test': 0.07468655425853869, 'f1_test': 0.11806247433580756, 'logloss_test': 6.216104235727242, 'roc_auc_test': 0.5992161376470496}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 2]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (5726, {}), (2448, {}), (2042, {}), (3299, {}), (1282, {})]
+📊 [Round 2] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.06971465629053178, 'f1_test': 0.11750230698246693, 'logloss_test': 7.583503107337387, 'roc_auc_test': 0.6143833372846174}), (3084, {'accuracy_test': 0.07457846952010376, 'f1_test': 0.1180469715698393, 'logloss_test': 6.162667223894195, 'roc_auc_test': 0.5814667286807115}), (3084, {'accuracy_test': 0.08787289234760051, 'f1_test': 0.11956181533646322, 'logloss_test': 4.805950193686451, 'roc_auc_test': 0.6205283379451755}), (3084, {'accuracy_test': 0.07263294422827497, 'f1_test': 0.11782850092535473, 'logloss_test': 6.4952749996230175, 'roc_auc_test': 0.5879284353096389}), (3084, {'accuracy_test': 0.07003891050583658, 'f1_test': 0.11753846153846154, 'logloss_test': 6.606338604631275, 'roc_auc_test': 0.5811165423671147}), (3084, {'accuracy_test': 0.08268482490272373, 'f1_test': 0.11896605418872626, 'logloss_test': 5.115729475209637, 'roc_auc_test': 0.6158772845811247})]
+📊 [Round 2] Aggregated evaluation metrics: {'accuracy_test': 0.07625378296584522, 'f1_test': 0.11824068509021865, 'logloss_test': 6.128243934063659, 'roc_auc_test': 0.6002167776947304}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 3]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (1282, {}), (2042, {}), (5726, {}), (2448, {}), (3299, {})]
+📊 [Round 3] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08463035019455253, 'f1_test': 0.11918876755070203, 'logloss_test': 5.012869779576117, 'roc_auc_test': 0.6170871013802951}), (3084, {'accuracy_test': 0.07360570687418937, 'f1_test': 0.11793763507255325, 'logloss_test': 6.38988165043272, 'roc_auc_test': 0.589065862173182}), (3084, {'accuracy_test': 0.07101167315175097, 'f1_test': 0.11764705882352941, 'logloss_test': 6.493715076130646, 'roc_auc_test': 0.5822548741048531}), (3084, {'accuracy_test': 0.09046692607003891, 'f1_test': 0.1198619391277063, 'logloss_test': 4.706164029594383, 'roc_auc_test': 0.6217227718830249}), (3084, {'accuracy_test': 0.07749675745784695, 'f1_test': 0.1183762008057019, 'logloss_test': 6.058230676290948, 'roc_auc_test': 0.5825670557022458}), (3084, {'accuracy_test': 0.07003891050583658, 'f1_test': 0.11753846153846154, 'logloss_test': 7.473317368451383, 'roc_auc_test': 0.6155641981095369})]
+📊 [Round 3] Aggregated evaluation metrics: {'accuracy_test': 0.07787505404236922, 'f1_test': 0.11842501048644241, 'logloss_test': 6.022363096746032, 'roc_auc_test': 0.6013769772255229}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 4]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (3299, {}), (5726, {}), (2448, {}), (1282, {}), (2042, {})]
+📊 [Round 4] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.07846952010376135, 'f1_test': 0.11793916821849783, 'logloss_test': 5.956727386953109, 'roc_auc_test': 0.5837886358659555}), (3084, {'accuracy_test': 0.07652399481193256, 'f1_test': 0.11826625386996904, 'logloss_test': 6.286496933158448, 'roc_auc_test': 0.5902241011432181}), (3084, {'accuracy_test': 0.07068741893644617, 'f1_test': 0.11761083743842364, 'logloss_test': 7.37267225001005, 'roc_auc_test': 0.6167323906957215}), (3084, {'accuracy_test': 0.07198443579766536, 'f1_test': 0.11775585696670776, 'logloss_test': 6.383572778400316, 'roc_auc_test': 0.5833932058425917}), (3084, {'accuracy_test': 0.08754863813229571, 'f1_test': 0.1195244055068836, 'logloss_test': 4.9122965607023135, 'roc_auc_test': 0.6184462224216967}), (3084, {'accuracy_test': 0.0940337224383917, 'f1_test': 0.12027707808564232, 'logloss_test': 4.609419694563253, 'roc_auc_test': 0.6229959298758694})]
+📊 [Round 4] Aggregated evaluation metrics: {'accuracy_test': 0.07987462170341547, 'f1_test': 0.11856226668102068, 'logloss_test': 5.920197600631248, 'roc_auc_test': 0.6025967476408421}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 5]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(1282, {}), (2042, {}), (4851, {}), (3299, {}), (2448, {}), (5726, {})]
+📊 [Round 5] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.07101167315175097, 'f1_test': 0.11764705882352941, 'logloss_test': 7.283240064097938, 'roc_auc_test': 0.6177349913041591}), (3084, {'accuracy_test': 0.07814526588845655, 'f1_test': 0.11844961240310077, 'logloss_test': 6.188181601779186, 'roc_auc_test': 0.5912013652741859}), (3084, {'accuracy_test': 0.09792477302204929, 'f1_test': 0.12073324905183312, 'logloss_test': 4.517293644893096, 'roc_auc_test': 0.6241206885006777}), (3084, {'accuracy_test': 0.07360570687418937, 'f1_test': 0.11793763507255325, 'logloss_test': 6.278423219805802, 'roc_auc_test': 0.5845541594352137}), (3084, {'accuracy_test': 0.08171206225680934, 'f1_test': 0.11830635118306351, 'logloss_test': 5.859724832551818, 'roc_auc_test': 0.5848174778260579}), (3084, {'accuracy_test': 0.0907911802853437, 'f1_test': 0.11989956057752668, 'logloss_test': 4.81733550989734, 'roc_auc_test': 0.6196442758563276})]
+📊 [Round 5] Aggregated evaluation metrics: {'accuracy_test': 0.08219844357976652, 'f1_test': 0.11882891118526778, 'logloss_test': 5.824033145504196, 'roc_auc_test': 0.6036788263661036}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 6]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3299, {}), (2042, {}), (1282, {}), (5726, {}), (2448, {}), (4851, {})]
+📊 [Round 6] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.10051880674448768, 'f1_test': 0.12103929024081116, 'logloss_test': 4.442671859969238, 'roc_auc_test': 0.6250671869090041}), (3084, {'accuracy_test': 0.07166018158236057, 'f1_test': 0.1177195685670262, 'logloss_test': 7.215799344587285, 'roc_auc_test': 0.6185086587411752}), (3084, {'accuracy_test': 0.07944228274967574, 'f1_test': 0.11859670909655387, 'logloss_test': 6.101236534389378, 'roc_auc_test': 0.5920492323952201}), (3084, {'accuracy_test': 0.08430609597924774, 'f1_test': 0.11860174781523096, 'logloss_test': 5.760973225112742, 'roc_auc_test': 0.5857875029634629}), (3084, {'accuracy_test': 0.0937094682230869, 'f1_test': 0.12023921938936104, 'logloss_test': 4.733408962993444, 'roc_auc_test': 0.6205437208064962}), (3084, {'accuracy_test': 0.07490272373540856, 'f1_test': 0.11808346213292117, 'logloss_test': 6.191466170143932, 'roc_auc_test': 0.5854427458950382})]
+📊 [Round 6] Aggregated evaluation metrics: {'accuracy_test': 0.08408992650237786, 'f1_test': 0.11904666620698406, 'logloss_test': 5.740926016199336, 'roc_auc_test': 0.6045665079517328}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 7]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (3299, {}), (2448, {}), (1282, {}), (2042, {}), (4851, {})]
+📊 [Round 7] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08106355382619974, 'f1_test': 0.11878109452736318, 'logloss_test': 6.00466026394028, 'roc_auc_test': 0.5931495594167542}), (3084, {'accuracy_test': 0.10278858625162127, 'f1_test': 0.12130835185773262, 'logloss_test': 4.354007533405803, 'roc_auc_test': 0.6263638716309271}), (3084, {'accuracy_test': 0.07684824902723736, 'f1_test': 0.11830288014865284, 'logloss_test': 6.095081651526589, 'roc_auc_test': 0.5865385485455956}), (3084, {'accuracy_test': 0.07166018158236057, 'f1_test': 0.1177195685670262, 'logloss_test': 7.133445128177619, 'roc_auc_test': 0.6195311665819102}), (3084, {'accuracy_test': 0.08560311284046693, 'f1_test': 0.11875, 'logloss_test': 5.652688381446139, 'roc_auc_test': 0.5867430501137426}), (3084, {'accuracy_test': 0.09695201037613489, 'f1_test': 0.1206188822229239, 'logloss_test': 4.641417282863309, 'roc_auc_test': 0.621820498296122})]
+📊 [Round 7] Aggregated evaluation metrics: {'accuracy_test': 0.08581928231733679, 'f1_test': 0.11924679622061646, 'logloss_test': 5.646883373559956, 'roc_auc_test': 0.6056911157641752}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 8]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (2042, {}), (2448, {}), (4851, {}), (1282, {}), (3299, {})]
+📊 [Round 8] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.09857328145265888, 'f1_test': 0.12080961416824794, 'logloss_test': 4.566211768089701, 'roc_auc_test': 0.6228185745335827}), (3084, {'accuracy_test': 0.08787289234760051, 'f1_test': 0.11901033510804886, 'logloss_test': 5.576330564594806, 'roc_auc_test': 0.5875845831154095}), (3084, {'accuracy_test': 0.07198443579766536, 'f1_test': 0.11775585696670776, 'logloss_test': 7.05937984436854, 'roc_auc_test': 0.6203455533577167}), (3084, {'accuracy_test': 0.07814526588845655, 'f1_test': 0.11844961240310077, 'logloss_test': 6.010017313706746, 'roc_auc_test': 0.58741356189249}), (3084, {'accuracy_test': 0.10440985732814527, 'f1_test': 0.12150127226463105, 'logloss_test': 4.281494080546088, 'roc_auc_test': 0.6274442914201638}), (3084, {'accuracy_test': 0.08333333333333333, 'f1_test': 0.11904019943907759, 'logloss_test': 5.926989550681019, 'roc_auc_test': 0.5941222991767455})]
+📊 [Round 8] Aggregated evaluation metrics: {'accuracy_test': 0.08738651102464332, 'f1_test': 0.11942781505830233, 'logloss_test': 5.57007052033115, 'roc_auc_test': 0.6066214772493513}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 9]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3299, {}), (1282, {}), (2042, {}), (2448, {}), (4851, {}), (5726, {})]
+📊 [Round 9] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.10732814526588845, 'f1_test': 0.12185007974481658, 'logloss_test': 4.240273439844915, 'roc_auc_test': 0.6279754525728287}), (3084, {'accuracy_test': 0.07198443579766536, 'f1_test': 0.11775585696670776, 'logloss_test': 7.009592744891965, 'roc_auc_test': 0.6208649511458422}), (3084, {'accuracy_test': 0.07846952010376135, 'f1_test': 0.1184863523573201, 'logloss_test': 5.963426239393259, 'roc_auc_test': 0.5879809180129686}), (3084, {'accuracy_test': 0.10051880674448768, 'f1_test': 0.12103929024081116, 'logloss_test': 4.52332276157623, 'roc_auc_test': 0.6233352576991221}), (3084, {'accuracy_test': 0.08949416342412451, 'f1_test': 0.1191969887076537, 'logloss_test': 5.53123389819204, 'roc_auc_test': 0.5881510343616928}), (3084, {'accuracy_test': 0.08333333333333333, 'f1_test': 0.11904019943907759, 'logloss_test': 5.88167124253132, 'roc_auc_test': 0.5945964532551039})]
+📊 [Round 9] Aggregated evaluation metrics: {'accuracy_test': 0.08852140077821011, 'f1_test': 0.11956146124273113, 'logloss_test': 5.524920054404955, 'roc_auc_test': 0.6071506778412598}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 10]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (1282, {}), (4851, {}), (2042, {}), (2448, {}), (3299, {})]
+📊 [Round 10] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.07230869001297018, 'f1_test': 0.11779216774591428, 'logloss_test': 6.920214594727592, 'roc_auc_test': 0.6219046515962885}), (3084, {'accuracy_test': 0.0914396887159533, 'f1_test': 0.11942174732872407, 'logloss_test': 5.438383915231628, 'roc_auc_test': 0.5891572544669116}), (3084, {'accuracy_test': 0.11251621271076524, 'f1_test': 0.12247515229240141, 'logloss_test': 4.154490184650393, 'roc_auc_test': 0.629112879436372}), (3084, {'accuracy_test': 0.10376134889753567, 'f1_test': 0.12142403051493961, 'logloss_test': 4.434234772284373, 'roc_auc_test': 0.6245486939950738}), (3084, {'accuracy_test': 0.07944228274967574, 'f1_test': 0.11859670909655387, 'logloss_test': 5.8690338097363925, 'roc_auc_test': 0.5890242379601964}), (3084, {'accuracy_test': 0.08495460440985733, 'f1_test': 0.11922596754057428, 'logloss_test': 5.7869709625824415, 'roc_auc_test': 0.5957076387669822})]
+📊 [Round 10] Aggregated evaluation metrics: {'accuracy_test': 0.09073713791612624, 'f1_test': 0.1198226290865179, 'logloss_test': 5.433888039868804, 'roc_auc_test': 0.608242559370304}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 11]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3299, {}), (4851, {}), (2448, {}), (1282, {}), (2042, {}), (5726, {})]
+📊 [Round 11] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08657587548638132, 'f1_test': 0.11941231634885902, 'logloss_test': 5.686212644363659, 'roc_auc_test': 0.5965464571460629}), (3084, {'accuracy_test': 0.11835278858625162, 'f1_test': 0.12318606900999678, 'logloss_test': 4.074261773573766, 'roc_auc_test': 0.6300765704544097}), (3084, {'accuracy_test': 0.08106355382619974, 'f1_test': 0.11878109452736318, 'logloss_test': 5.774126262192045, 'roc_auc_test': 0.5899092049232395}), (3084, {'accuracy_test': 0.10505836575875487, 'f1_test': 0.12101910828025478, 'logloss_test': 4.351116808413385, 'roc_auc_test': 0.6256236845391385}), (3084, {'accuracy_test': 0.0946822308690013, 'f1_test': 0.11979823455233292, 'logloss_test': 5.345882045383004, 'roc_auc_test': 0.5901462819624188}), (3084, {'accuracy_test': 0.07263294422827497, 'f1_test': 0.11782850092535473, 'logloss_test': 6.845810092530297, 'roc_auc_test': 0.6228629133691543})]
+📊 [Round 11] Aggregated evaluation metrics: {'accuracy_test': 0.09306095979247729, 'f1_test': 0.12000422060736023, 'logloss_test': 5.346234937742692, 'roc_auc_test': 0.6091941853990706}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 12]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (5726, {}), (1282, {}), (4851, {}), (2448, {}), (3299, {})]
+📊 [Round 12] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.12127107652399481, 'f1_test': 0.12297734627831715, 'logloss_test': 3.9982413478908394, 'roc_auc_test': 0.6309199132044672}), (3084, {'accuracy_test': 0.07263294422827497, 'f1_test': 0.11782850092535473, 'logloss_test': 6.787331334141625, 'roc_auc_test': 0.6236546782900774}), (3084, {'accuracy_test': 0.08819714656290532, 'f1_test': 0.11959924859110833, 'logloss_test': 5.616990035326709, 'roc_auc_test': 0.5973183148346884}), (3084, {'accuracy_test': 0.11024643320363164, 'f1_test': 0.12163892445582586, 'logloss_test': 4.285614149119484, 'roc_auc_test': 0.6264543590504612}), (3084, {'accuracy_test': 0.08236057068741894, 'f1_test': 0.11892901618929017, 'logloss_test': 5.691626474713221, 'roc_auc_test': 0.5907516427991018}), (3084, {'accuracy_test': 0.09727626459143969, 'f1_test': 0.12010113780025285, 'logloss_test': 5.2778919524313785, 'roc_auc_test': 0.5909787662221321})]
+📊 [Round 12] Aggregated evaluation metrics: {'accuracy_test': 0.09533073929961089, 'f1_test': 0.12017902904002485, 'logloss_test': 5.27628254893721, 'roc_auc_test': 0.610012945733488}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 13]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(1282, {}), (4851, {}), (5726, {}), (3299, {}), (2448, {}), (2042, {})]
+📊 [Round 13] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.0917639429312581, 'f1_test': 0.12001256676091737, 'logloss_test': 5.524033781006718, 'roc_auc_test': 0.5982521450042799}), (3084, {'accuracy_test': 0.11446173800259403, 'f1_test': 0.12214721954355513, 'logloss_test': 4.203560864595781, 'roc_auc_test': 0.6274099062007409}), (3084, {'accuracy_test': 0.08527885862516213, 'f1_test': 0.11926319075866375, 'logloss_test': 5.597828534278489, 'roc_auc_test': 0.5917162386913347}), (3084, {'accuracy_test': 0.124189364461738, 'f1_test': 0.12333657903278157, 'logloss_test': 3.919407026641191, 'roc_auc_test': 0.6319668526484763}), (3084, {'accuracy_test': 0.07295719844357977, 'f1_test': 0.11786485652576366, 'logloss_test': 6.714340439511535, 'roc_auc_test': 0.6245559329886365}), (3084, {'accuracy_test': 0.09987029831387809, 'f1_test': 0.12040557667934093, 'logloss_test': 5.193039437724096, 'roc_auc_test': 0.5919044525239656})]
+📊 [Round 13] Aggregated evaluation metrics: {'accuracy_test': 0.09808690012970167, 'f1_test': 0.12050499821683705, 'logloss_test': 5.192035013959634, 'roc_auc_test': 0.6109675880095723}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 14]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (1282, {}), (5726, {}), (3299, {}), (2448, {}), (2042, {})]
+📊 [Round 14] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08852140077821012, 'f1_test': 0.11963670529282806, 'logloss_test': 5.512085972752377, 'roc_auc_test': 0.5927342221610928}), (3084, {'accuracy_test': 0.07425421530479896, 'f1_test': 0.11801050355267223, 'logloss_test': 6.640371197222371, 'roc_auc_test': 0.6254499486936331}), (3084, {'accuracy_test': 0.12840466926070038, 'f1_test': 0.12385919165580182, 'logloss_test': 3.848560636774388, 'roc_auc_test': 0.6329386875342721}), (3084, {'accuracy_test': 0.10116731517509728, 'f1_test': 0.12, 'logloss_test': 5.116041059439179, 'roc_auc_test': 0.5928581899258547}), (3084, {'accuracy_test': 0.0930609597924773, 'f1_test': 0.12016357345077068, 'logloss_test': 5.444483844420897, 'roc_auc_test': 0.5992909405805311}), (3084, {'accuracy_test': 0.11900129701686121, 'f1_test': 0.12269938650306748, 'logloss_test': 4.117039298936348, 'roc_auc_test': 0.6284740382544616})]
+📊 [Round 14] Aggregated evaluation metrics: {'accuracy_test': 0.10073497622135753, 'f1_test': 0.12072822674252337, 'logloss_test': 5.113097001590925, 'roc_auc_test': 0.6119576711916409}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 15]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (1282, {}), (4851, {}), (2448, {}), (2042, {}), (3299, {})]
+📊 [Round 15] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.1309987029831388, 'f1_test': 0.1236102027468934, 'logloss_test': 3.7797852771720644, 'roc_auc_test': 0.6338010326424317}), (3084, {'accuracy_test': 0.10278858625162127, 'f1_test': 0.12019077901430843, 'logloss_test': 5.039656061821648, 'roc_auc_test': 0.5936074257595967}), (3084, {'accuracy_test': 0.09014267185473411, 'f1_test': 0.11982434127979925, 'logloss_test': 5.433985207481409, 'roc_auc_test': 0.5936155696273547}), (3084, {'accuracy_test': 0.0937094682230869, 'f1_test': 0.11968503937007874, 'logloss_test': 5.360543561850477, 'roc_auc_test': 0.6001198053434631}), (3084, {'accuracy_test': 0.122568093385214, 'f1_test': 0.12313674659753726, 'logloss_test': 4.045290238269688, 'roc_auc_test': 0.6294033440530763}), (3084, {'accuracy_test': 0.07457846952010376, 'f1_test': 0.1180469715698393, 'logloss_test': 6.5750794261458685, 'roc_auc_test': 0.6261937552822031})]
+📊 [Round 15] Aggregated evaluation metrics: {'accuracy_test': 0.10246433203631647, 'f1_test': 0.12074901342974273, 'logloss_test': 5.039056628790192, 'roc_auc_test': 0.6127901554513542}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 16]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (2042, {}), (5726, {}), (3299, {}), (2448, {}), (1282, {})]
+📊 [Round 16] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.10408560311284047, 'f1_test': 0.12034383954154727, 'logloss_test': 4.990444568401685, 'roc_auc_test': 0.5941168699315734}), (3084, {'accuracy_test': 0.1254863813229572, 'f1_test': 0.12349691257718556, 'logloss_test': 3.998159025908664, 'roc_auc_test': 0.6299535075638434}), (3084, {'accuracy_test': 0.0911154345006485, 'f1_test': 0.11993720565149137, 'logloss_test': 5.383537025893966, 'roc_auc_test': 0.5942209304640376}), (3084, {'accuracy_test': 0.07490272373540856, 'f1_test': 0.11808346213292117, 'logloss_test': 6.532855588045473, 'roc_auc_test': 0.6267918771253231}), (3084, {'accuracy_test': 0.13229571984435798, 'f1_test': 0.1237721021611002, 'logloss_test': 3.734588500891376, 'roc_auc_test': 0.6343928203661845}), (3084, {'accuracy_test': 0.0946822308690013, 'f1_test': 0.11979823455233292, 'logloss_test': 5.297500283262591, 'roc_auc_test': 0.6006419177541746})]
+📊 [Round 16] Aggregated evaluation metrics: {'accuracy_test': 0.10376134889753566, 'f1_test': 0.12090529276942974, 'logloss_test': 4.989514165400625, 'roc_auc_test': 0.6133529872008561}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 17]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3299, {}), (5726, {}), (2042, {}), (4851, {}), (1282, {}), (2448, {})]
+📊 [Round 17] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.12840466926070038, 'f1_test': 0.12385919165580182, 'logloss_test': 3.9090880001539254, 'roc_auc_test': 0.6311352732629583}), (3084, {'accuracy_test': 0.10992217898832685, 'f1_test': 0.12103746397694524, 'logloss_test': 4.87694442753543, 'roc_auc_test': 0.595149331388457}), (3084, {'accuracy_test': 0.0937094682230869, 'f1_test': 0.12023921938936104, 'logloss_test': 5.287214071120983, 'roc_auc_test': 0.5952968258822976}), (3084, {'accuracy_test': 0.07619974059662776, 'f1_test': 0.11822965026307644, 'logloss_test': 6.443498887832183, 'roc_auc_test': 0.6279030626372016}), (3084, {'accuracy_test': 0.13586251621271075, 'f1_test': 0.12421952021031876, 'logloss_test': 3.649258690227546, 'roc_auc_test': 0.6354451890553656}), (3084, {'accuracy_test': 0.09760051880674449, 'f1_test': 0.12013910844135314, 'logloss_test': 5.1946755940903016, 'roc_auc_test': 0.6016028941496264})]
+📊 [Round 17] Aggregated evaluation metrics: {'accuracy_test': 0.10694984868136617, 'f1_test': 0.12128735898947607, 'logloss_test': 4.893446611826727, 'roc_auc_test': 0.6144220960626511}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 18]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (2448, {}), (4851, {}), (3299, {}), (2042, {}), (1282, {})]
+📊 [Round 18] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.10051880674448768, 'f1_test': 0.12048192771084337, 'logloss_test': 5.11425066069934, 'roc_auc_test': 0.6024236150448004}), (3084, {'accuracy_test': 0.0966277561608301, 'f1_test': 0.12002526847757422, 'logloss_test': 5.212307263324678, 'roc_auc_test': 0.5961356442613783}), (3084, {'accuracy_test': 0.11446173800259403, 'f1_test': 0.12158250241235123, 'logloss_test': 4.797641556439875, 'roc_auc_test': 0.5960786371870719}), (3084, {'accuracy_test': 0.12905317769131, 'f1_test': 0.12279555845852384, 'logloss_test': 3.8400906207708156, 'roc_auc_test': 0.6322129784296089}), (3084, {'accuracy_test': 0.07619974059662776, 'f1_test': 0.11822965026307644, 'logloss_test': 6.373041139247462, 'roc_auc_test': 0.6288522756681139}), (3084, {'accuracy_test': 0.14007782101167315, 'f1_test': 0.12475247524752475, 'logloss_test': 3.5834477647197196, 'roc_auc_test': 0.636309343911916})]
+📊 [Round 18] Aggregated evaluation metrics: {'accuracy_test': 0.1094898400345871, 'f1_test': 0.12131123042831563, 'logloss_test': 4.820129834200316, 'roc_auc_test': 0.6153354157504815}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 19]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(1282, {}), (4851, {}), (2448, {}), (3299, {}), (5726, {}), (2042, {})]
+📊 [Round 19] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.10440985732814527, 'f1_test': 0.12094207511139402, 'logloss_test': 5.018300565102447, 'roc_auc_test': 0.6036090002406965}), (3084, {'accuracy_test': 0.11673151750972763, 'f1_test': 0.1218568665377176, 'logloss_test': 4.70448688552993, 'roc_auc_test': 0.5971735349634341}), (3084, {'accuracy_test': 0.09987029831387809, 'f1_test': 0.12040557667934093, 'logloss_test': 5.108963529073371, 'roc_auc_test': 0.5972495443958427}), (3084, {'accuracy_test': 0.07652399481193256, 'f1_test': 0.11826625386996904, 'logloss_test': 6.280365824681993, 'roc_auc_test': 0.629992417154243}), (3084, {'accuracy_test': 0.13294422827496757, 'f1_test': 0.12270341207349081, 'logloss_test': 3.7491154317650635, 'roc_auc_test': 0.633334117557636}), (3084, {'accuracy_test': 0.14656290531776914, 'f1_test': 0.12441783100465735, 'logloss_test': 3.4965501170866617, 'roc_auc_test': 0.6374657731335613})]
+📊 [Round 19] Aggregated evaluation metrics: {'accuracy_test': 0.11284046692607003, 'f1_test': 0.12143200254609496, 'logloss_test': 4.726297058873244, 'roc_auc_test': 0.6164707312409022}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 20]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (4851, {}), (2448, {}), (1282, {}), (3299, {}), (5726, {})]
+📊 [Round 20] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.15304798962386512, 'f1_test': 0.12525117213663764, 'logloss_test': 3.4370345847383383, 'roc_auc_test': 0.6382068650995453}), (3084, {'accuracy_test': 0.10765239948119326, 'f1_test': 0.12132822477650064, 'logloss_test': 4.950019469832909, 'roc_auc_test': 0.6044061944067917}), (3084, {'accuracy_test': 0.07749675745784695, 'f1_test': 0.1183762008057019, 'logloss_test': 6.22448071083676, 'roc_auc_test': 0.6306945995298273}), (3084, {'accuracy_test': 0.10149156939040208, 'f1_test': 0.12059663598857505, 'logloss_test': 5.033784239238309, 'roc_auc_test': 0.5979499170230362}), (3084, {'accuracy_test': 0.12094682230869001, 'f1_test': 0.12236969893169311, 'logloss_test': 4.637957732223363, 'roc_auc_test': 0.5979680145069431}), (3084, {'accuracy_test': 0.13618677042801555, 'f1_test': 0.12310730743910467, 'logloss_test': 3.6869193314212056, 'roc_auc_test': 0.6340770192720105})]
+📊 [Round 20] Aggregated evaluation metrics: {'accuracy_test': 0.11613705144833547, 'f1_test': 0.12183820667970216, 'logloss_test': 4.661699344715148, 'roc_auc_test': 0.6172171016396923}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 21]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (4851, {}), (2448, {}), (3299, {}), (1282, {}), (5726, {})]
+📊 [Round 21] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.1245136186770428, 'f1_test': 0.12280701754385964, 'logloss_test': 4.571496996989637, 'roc_auc_test': 0.598931705524981}), (3084, {'accuracy_test': 0.10408560311284047, 'f1_test': 0.12090359529112313, 'logloss_test': 4.9591607182397075, 'roc_auc_test': 0.5987154405922943}), (3084, {'accuracy_test': 0.1569390402075227, 'f1_test': 0.12398921832884097, 'logloss_test': 3.3782088463328663, 'roc_auc_test': 0.6390221567495471}), (3084, {'accuracy_test': 0.10862516212710766, 'f1_test': 0.12144455097475232, 'logloss_test': 4.881946167461449, 'roc_auc_test': 0.6052504420310445}), (3084, {'accuracy_test': 0.07846952010376135, 'f1_test': 0.1184863523573201, 'logloss_test': 6.1670260524605265, 'roc_auc_test': 0.6314610279732809}), (3084, {'accuracy_test': 0.14105058365758755, 'f1_test': 0.12371816076744956, 'logloss_test': 3.625185354106862, 'roc_auc_test': 0.6348877865510358})]
+📊 [Round 21] Aggregated evaluation metrics: {'accuracy_test': 0.11894725464764373, 'f1_test': 0.12189148254389096, 'logloss_test': 4.597170689265175, 'roc_auc_test': 0.6180447599036972}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 22]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2448, {}), (3299, {}), (2042, {}), (1282, {}), (4851, {}), (5726, {})]
+📊 [Round 22] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.11024643320363164, 'f1_test': 0.12163892445582586, 'logloss_test': 4.809777702035365, 'roc_auc_test': 0.6060937847811019}), (3084, {'accuracy_test': 0.10538261997405966, 'f1_test': 0.1210576616756929, 'logloss_test': 4.880104587433536, 'roc_auc_test': 0.5995461151036171}), (3084, {'accuracy_test': 0.12775616083009078, 'f1_test': 0.12320730117340287, 'logloss_test': 4.501498995268011, 'roc_auc_test': 0.5998257212299773}), (3084, {'accuracy_test': 0.1611543450064851, 'f1_test': 0.1245346869712352, 'logloss_test': 3.3158678702416213, 'roc_auc_test': 0.6398157314188608}), (3084, {'accuracy_test': 0.07846952010376135, 'f1_test': 0.1184863523573201, 'logloss_test': 6.1040107781469, 'roc_auc_test': 0.6323143243394871}), (3084, {'accuracy_test': 0.14559014267185474, 'f1_test': 0.12429378531073447, 'logloss_test': 3.55996711069979, 'roc_auc_test': 0.6356732173525915})]
+📊 [Round 22] Aggregated evaluation metrics: {'accuracy_test': 0.1214332036316472, 'f1_test': 0.12220311865736855, 'logloss_test': 4.5285378406375365, 'roc_auc_test': 0.618878149037606}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 23]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(5726, {}), (1282, {}), (2042, {}), (4851, {}), (2448, {}), (3299, {})]
+📊 [Round 23] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.130674448767834, 'f1_test': 0.12299640170101407, 'logloss_test': 4.410141477120399, 'roc_auc_test': 0.6007903171222105}), (3084, {'accuracy_test': 0.14980544747081712, 'f1_test': 0.12366310160427807, 'logloss_test': 3.47214667264384, 'roc_auc_test': 0.6367898321096418}), (3084, {'accuracy_test': 0.11121919584954604, 'f1_test': 0.12175584748478052, 'logloss_test': 4.785118702272643, 'roc_auc_test': 0.6007550270285922}), (3084, {'accuracy_test': 0.11673151750972763, 'f1_test': 0.12242268041237113, 'logloss_test': 4.715788195866387, 'roc_auc_test': 0.607183253312292}), (3084, {'accuracy_test': 0.08009079118028535, 'f1_test': 0.1186703945324635, 'logloss_test': 6.006618776131309, 'roc_auc_test': 0.6334282244739514}), (3084, {'accuracy_test': 0.16893644617380027, 'f1_test': 0.12495732331853875, 'logloss_test': 3.231995423066205, 'roc_auc_test': 0.640916058440395})]
+📊 [Round 23] Aggregated evaluation metrics: {'accuracy_test': 0.12624297449200172, 'f1_test': 0.12241095817557432, 'logloss_test': 4.43696820785013, 'roc_auc_test': 0.6199771187478471}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 24]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (2448, {}), (4851, {}), (1282, {}), (5726, {}), (3299, {})]
+📊 [Round 24] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08171206225680934, 'f1_test': 0.11885500933416304, 'logloss_test': 5.93820566840281, 'roc_auc_test': 0.6342607087336648}), (3084, {'accuracy_test': 0.17509727626459143, 'f1_test': 0.12577319587628866, 'logloss_test': 3.165935772994964, 'roc_auc_test': 0.6418426496164239}), (3084, {'accuracy_test': 0.11381322957198443, 'f1_test': 0.12206874397687119, 'logloss_test': 4.7083331944042035, 'roc_auc_test': 0.6016056087722124}), (3084, {'accuracy_test': 0.12029831387808042, 'f1_test': 0.12285806660200453, 'logloss_test': 4.639966551405087, 'roc_auc_test': 0.6079849718493638}), (3084, {'accuracy_test': 0.1543450064850843, 'f1_test': 0.12424445936870383, 'logloss_test': 3.4023148484896066, 'roc_auc_test': 0.6378539641633624}), (3084, {'accuracy_test': 0.13780804150453957, 'f1_test': 0.12388797364085667, 'logloss_test': 4.336448930695553, 'roc_auc_test': 0.6017341009079508})]
+📊 [Round 24] Aggregated evaluation metrics: {'accuracy_test': 0.1305123216601816, 'f1_test': 0.12294790813314799, 'logloss_test': 4.365200827732037, 'roc_auc_test': 0.6208803340071629}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 25]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(1282, {}), (2042, {}), (2448, {}), (3299, {}), (5726, {}), (4851, {})]
+📊 [Round 25] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.08268482490272373, 'f1_test': 0.11896605418872626, 'logloss_test': 5.861928131403004, 'roc_auc_test': 0.6353194115422134}), (3084, {'accuracy_test': 0.1248378728923476, 'f1_test': 0.12341669373173109, 'logloss_test': 4.546696022877909, 'roc_auc_test': 0.6090418649095217}), (3084, {'accuracy_test': 0.15856031128404668, 'f1_test': 0.12360688956433637, 'logloss_test': 3.323889735351574, 'roc_auc_test': 0.6388999987331762}), (3084, {'accuracy_test': 0.14299610894941633, 'f1_test': 0.12454455117588606, 'logloss_test': 4.245468994390379, 'roc_auc_test': 0.6028271889359222}), (3084, {'accuracy_test': 0.18125810635538261, 'f1_test': 0.12659979245935662, 'logloss_test': 3.0914158740522213, 'roc_auc_test': 0.6428615379603775}), (3084, {'accuracy_test': 0.11738002594033722, 'f1_test': 0.12250161186331399, 'logloss_test': 4.620603859128801, 'roc_auc_test': 0.6026172581226032})]
+📊 [Round 25] Aggregated evaluation metrics: {'accuracy_test': 0.13461954172070906, 'f1_test': 0.1232725988305584, 'logloss_test': 4.281667102867314, 'roc_auc_test': 0.6219278767006357}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 26]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2448, {}), (5726, {}), (2042, {}), (3299, {}), (4851, {}), (1282, {})]
+📊 [Round 26] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.16472114137483787, 'f1_test': 0.12380952380952381, 'logloss_test': 3.2562247461247464, 'roc_auc_test': 0.6398112070478842}), (3084, {'accuracy_test': 0.187094682230869, 'f1_test': 0.1273929690219283, 'logloss_test': 3.0272792291113726, 'roc_auc_test': 0.6437320269362949}), (3084, {'accuracy_test': 0.14656290531776914, 'f1_test': 0.12383488681757657, 'logloss_test': 4.172189885914316, 'roc_auc_test': 0.6037583044829276}), (3084, {'accuracy_test': 0.08430609597924774, 'f1_test': 0.11915159076731129, 'logloss_test': 5.788398504500989, 'roc_auc_test': 0.6361690884116382}), (3084, {'accuracy_test': 0.12840466926070038, 'f1_test': 0.12385919165580182, 'logloss_test': 4.4713040556301555, 'roc_auc_test': 0.6099150685080253}), (3084, {'accuracy_test': 0.12159533073929961, 'f1_test': 0.12301715765619942, 'logloss_test': 4.544532029795749, 'roc_auc_test': 0.6034606008726606})]
+📊 [Round 26] Aggregated evaluation metrics: {'accuracy_test': 0.13878080415045396, 'f1_test': 0.1235108866213902, 'logloss_test': 4.209988075179554, 'roc_auc_test': 0.6228077160432385}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 27]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (2448, {}), (1282, {}), (3299, {}), (2042, {}), (5726, {})]
+📊 [Round 27] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.19390402075226978, 'f1_test': 0.12771929824561404, 'logloss_test': 2.97380635705234, 'roc_auc_test': 0.6444007289666518}), (3084, {'accuracy_test': 0.08592736705577173, 'f1_test': 0.11933770696657295, 'logloss_test': 5.734856666326394, 'roc_auc_test': 0.636883034151762}), (3084, {'accuracy_test': 0.1504539559014267, 'f1_test': 0.12433155080213903, 'logloss_test': 4.111214752061367, 'roc_auc_test': 0.6045437352844835}), (3084, {'accuracy_test': 0.16958495460440987, 'f1_test': 0.12444444444444444, 'logloss_test': 3.1999053778907856, 'roc_auc_test': 0.6405314869073753}), (3084, {'accuracy_test': 0.1251621271076524, 'f1_test': 0.12345679012345678, 'logloss_test': 4.480803217896425, 'roc_auc_test': 0.6042188854483561}), (3084, {'accuracy_test': 0.13132295719844359, 'f1_test': 0.12422360248447205, 'logloss_test': 4.4014313371503855, 'roc_auc_test': 0.6107104529257298})]
+📊 [Round 27] Aggregated evaluation metrics: {'accuracy_test': 0.142725897103329, 'f1_test': 0.12391889884444987, 'logloss_test': 4.150336284729615, 'roc_auc_test': 0.623548053947393}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 28]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(1282, {}), (2042, {}), (2448, {}), (5726, {}), (3299, {}), (4851, {})]
+📊 [Round 28] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.12775616083009078, 'f1_test': 0.1237785016286645, 'logloss_test': 4.421111874474422, 'roc_auc_test': 0.6049192580755498}), (3084, {'accuracy_test': 0.08625162127107652, 'f1_test': 0.119375, 'logloss_test': 5.690445056347646, 'roc_auc_test': 0.6374892998626401}), (3084, {'accuracy_test': 0.19974059662775617, 'f1_test': 0.1272984441301273, 'logloss_test': 2.929878070834612, 'roc_auc_test': 0.644996136187186}), (3084, {'accuracy_test': 0.15304798962386512, 'f1_test': 0.12466487935656836, 'logloss_test': 4.053128814605996, 'roc_auc_test': 0.6051138060275479}), (3084, {'accuracy_test': 0.13521400778210116, 'f1_test': 0.12471283229405973, 'logloss_test': 4.349031580437927, 'roc_auc_test': 0.6113719159625237}), (3084, {'accuracy_test': 0.17477302204928663, 'f1_test': 0.1251289102784462, 'logloss_test': 3.153723004743991, 'roc_auc_test': 0.6410943186568772})]
+📊 [Round 28] Aggregated evaluation metrics: {'accuracy_test': 0.1461305663640294, 'f1_test': 0.124159761281311, 'logloss_test': 4.099553066907432, 'roc_auc_test': 0.6241641224620541}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 29]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(4851, {}), (1282, {}), (5726, {}), (3299, {}), (2042, {}), (2448, {})]
+📊 [Round 29] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.20946822308690013, 'f1_test': 0.12866333095067906, 'logloss_test': 2.8579756858925114, 'roc_auc_test': 0.6460756511022272}), (3084, {'accuracy_test': 0.13391699092088197, 'f1_test': 0.1245493280891511, 'logloss_test': 4.336784312006853, 'roc_auc_test': 0.606019585097084}), (3084, {'accuracy_test': 0.08657587548638132, 'f1_test': 0.11941231634885902, 'logloss_test': 5.612451340031889, 'roc_auc_test': 0.6385860073873929}), (3084, {'accuracy_test': 0.1832036316472114, 'f1_test': 0.12625737079431149, 'logloss_test': 3.0775609959833767, 'roc_auc_test': 0.6421928359300206}), (3084, {'accuracy_test': 0.13910505836575876, 'f1_test': 0.12462908011869436, 'logloss_test': 4.258750053361769, 'roc_auc_test': 0.612531059806755}), (3084, {'accuracy_test': 0.1601815823605707, 'f1_test': 0.12559081701553004, 'logloss_test': 3.9718581735761194, 'roc_auc_test': 0.6061743185844871})]
+📊 [Round 29] Aggregated evaluation metrics: {'accuracy_test': 0.15207522697795073, 'f1_test': 0.12485037388620415, 'logloss_test': 4.01923009347542, 'roc_auc_test': 0.6252632429846611}
+[92mINFO [0m:
+[92mINFO [0m:      [ROUND 30]
+[92mINFO [0m:      configure_fit: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_fit: received 6 results and 0 failures
+ITS_METRICS_LIST:[(2042, {}), (4851, {}), (3299, {}), (1282, {}), (2448, {}), (5726, {})]
+📊 [Round 30] Aggregated training metrics: {}
+[92mINFO [0m:      configure_evaluate: strategy sampled 6 clients (out of 6)
+[92mINFO [0m:      aggregate_evaluate: received 6 results and 0 failures
+ITS_METRICS_LIST:[(3084, {'accuracy_test': 0.16472114137483787, 'f1_test': 0.12559402579769177, 'logloss_test': 3.908563938302941, 'roc_auc_test': 0.606986895611903}), (3084, {'accuracy_test': 0.1916342412451362, 'f1_test': 0.12679509632224167, 'logloss_test': 3.0187786641664505, 'roc_auc_test': 0.6429456912605439}), (3084, {'accuracy_test': 0.2169260700389105, 'f1_test': 0.1291020555355211, 'logloss_test': 2.8028788746743647, 'roc_auc_test': 0.6468366503005087}), (3084, {'accuracy_test': 0.13748378728923477, 'f1_test': 0.12442396313364056, 'logloss_test': 4.270659942370661, 'roc_auc_test': 0.6068384962438672}), (3084, {'accuracy_test': 0.14591439688715954, 'f1_test': 0.1254980079681275, 'logloss_test': 4.192844896033508, 'roc_auc_test': 0.6133056321179667}), (3084, {'accuracy_test': 0.08787289234760051, 'f1_test': 0.11956181533646322, 'logloss_test': 5.553645678433298, 'roc_auc_test': 0.6394022039115902})]
+📊 [Round 30] Aggregated evaluation metrics: {'accuracy_test': 0.1574254215304799, 'f1_test': 0.1251624940156143, 'logloss_test': 3.957895332330203, 'roc_auc_test': 0.6260525949077299}
+[92mINFO [0m:
+[92mINFO [0m:      [SUMMARY]
+[92mINFO [0m:      Run finished 30 round(s) in 18.90s
+[92mINFO [0m:      	History (loss, distributed):
+[92mINFO [0m:      		round 1: 6.21610426902771
+[92mINFO [0m:      		round 2: 6.128243923187256
+[92mINFO [0m:      		round 3: 6.022363106409709
+[92mINFO [0m:      		round 4: 5.920197645823161
+[92mINFO [0m:      		round 5: 5.824033101399739
+[92mINFO [0m:      		round 6: 5.740926027297974
+[92mINFO [0m:      		round 7: 5.646883487701416
+[92mINFO [0m:      		round 8: 5.570070584615071
+[92mINFO [0m:      		round 9: 5.5249199867248535
+[92mINFO [0m:      		round 10: 5.433888037999471
+[92mINFO [0m:      		round 11: 5.3462347984313965
+[92mINFO [0m:      		round 12: 5.276282548904419
+[92mINFO [0m:      		round 13: 5.192034920056661
+[92mINFO [0m:      		round 14: 5.113096992174785
+[92mINFO [0m:      		round 15: 5.039056738217671
+[92mINFO [0m:      		round 16: 4.989514072736104
+[92mINFO [0m:      		round 17: 4.893446644147237
+[92mINFO [0m:      		round 18: 4.820129871368408
+[92mINFO [0m:      		round 19: 4.726297060648601
+[92mINFO [0m:      		round 20: 4.661699295043945
+[92mINFO [0m:      		round 21: 4.5971706708272295
+[92mINFO [0m:      		round 22: 4.528537829717
+[92mINFO [0m:      		round 23: 4.436968247095744
+[92mINFO [0m:      		round 24: 4.365200837453206
+[92mINFO [0m:      		round 25: 4.281667153040568
+[92mINFO [0m:      		round 26: 4.209987998008728
+[92mINFO [0m:      		round 27: 4.150336265563965
+[92mINFO [0m:      		round 28: 4.099553028742473
+[92mINFO [0m:      		round 29: 4.019230127334595
+[92mINFO [0m:      		round 30: 3.957895278930664
+[92mINFO [0m:      	History (metrics, distributed, evaluate):
+[92mINFO [0m:      	{'accuracy_test': [(1, 0.07468655425853869),
+[92mINFO [0m:      	                   (2, 0.07625378296584522),
+[92mINFO [0m:      	                   (3, 0.07787505404236922),
+[92mINFO [0m:      	                   (4, 0.07987462170341547),
+[92mINFO [0m:      	                   (5, 0.08219844357976652),
+[92mINFO [0m:      	                   (6, 0.08408992650237786),
+[92mINFO [0m:      	                   (7, 0.08581928231733679),
+[92mINFO [0m:      	                   (8, 0.08738651102464332),
+[92mINFO [0m:      	                   (9, 0.08852140077821011),
+[92mINFO [0m:      	                   (10, 0.09073713791612624),
+[92mINFO [0m:      	                   (11, 0.09306095979247729),
+[92mINFO [0m:      	                   (12, 0.09533073929961089),
+[92mINFO [0m:      	                   (13, 0.09808690012970167),
+[92mINFO [0m:      	                   (14, 0.10073497622135753),
+[92mINFO [0m:      	                   (15, 0.10246433203631647),
+[92mINFO [0m:      	                   (16, 0.10376134889753566),
+[92mINFO [0m:      	                   (17, 0.10694984868136617),
+[92mINFO [0m:      	                   (18, 0.1094898400345871),
+[92mINFO [0m:      	                   (19, 0.11284046692607003),
+[92mINFO [0m:      	                   (20, 0.11613705144833547),
+[92mINFO [0m:      	                   (21, 0.11894725464764373),
+[92mINFO [0m:      	                   (22, 0.1214332036316472),
+[92mINFO [0m:      	                   (23, 0.12624297449200172),
+[92mINFO [0m:      	                   (24, 0.1305123216601816),
+[92mINFO [0m:      	                   (25, 0.13461954172070906),
+[92mINFO [0m:      	                   (26, 0.13878080415045396),
+[92mINFO [0m:      	                   (27, 0.142725897103329),
+[92mINFO [0m:      	                   (28, 0.1461305663640294),
+[92mINFO [0m:      	                   (29, 0.15207522697795073),
+[92mINFO [0m:      	                   (30, 0.1574254215304799)],
+[92mINFO [0m:      	 'f1_test': [(1, 0.11806247433580756),
+[92mINFO [0m:      	             (2, 0.11824068509021865),
+[92mINFO [0m:      	             (3, 0.11842501048644241),
+[92mINFO [0m:      	             (4, 0.11856226668102068),
+[92mINFO [0m:      	             (5, 0.11882891118526778),
+[92mINFO [0m:      	             (6, 0.11904666620698406),
+[92mINFO [0m:      	             (7, 0.11924679622061646),
+[92mINFO [0m:      	             (8, 0.11942781505830233),
+[92mINFO [0m:      	             (9, 0.11956146124273113),
+[92mINFO [0m:      	             (10, 0.1198226290865179),
+[92mINFO [0m:      	             (11, 0.12000422060736023),
+[92mINFO [0m:      	             (12, 0.12017902904002485),
+[92mINFO [0m:      	             (13, 0.12050499821683705),
+[92mINFO [0m:      	             (14, 0.12072822674252337),
+[92mINFO [0m:      	             (15, 0.12074901342974273),
+[92mINFO [0m:      	             (16, 0.12090529276942974),
+[92mINFO [0m:      	             (17, 0.12128735898947607),
+[92mINFO [0m:      	             (18, 0.12131123042831563),
+[92mINFO [0m:      	             (19, 0.12143200254609496),
+[92mINFO [0m:      	             (20, 0.12183820667970216),
+[92mINFO [0m:      	             (21, 0.12189148254389096),
+[92mINFO [0m:      	             (22, 0.12220311865736855),
+[92mINFO [0m:      	             (23, 0.12241095817557432),
+[92mINFO [0m:      	             (24, 0.12294790813314799),
+[92mINFO [0m:      	             (25, 0.1232725988305584),
+[92mINFO [0m:      	             (26, 0.1235108866213902),
+[92mINFO [0m:      	             (27, 0.12391889884444987),
+[92mINFO [0m:      	             (28, 0.124159761281311),
+[92mINFO [0m:      	             (29, 0.12485037388620415),
+[92mINFO [0m:      	             (30, 0.1251624940156143)],
+[92mINFO [0m:      	 'logloss_test': [(1, 6.216104235727242),
+[92mINFO [0m:      	                  (2, 6.128243934063659),
+[92mINFO [0m:      	                  (3, 6.022363096746032),
+[92mINFO [0m:      	                  (4, 5.920197600631248),
+[92mINFO [0m:      	                  (5, 5.824033145504196),
+[92mINFO [0m:      	                  (6, 5.740926016199336),
+[92mINFO [0m:      	                  (7, 5.646883373559956),
+[92mINFO [0m:      	                  (8, 5.57007052033115),
+[92mINFO [0m:      	                  (9, 5.524920054404955),
+[92mINFO [0m:      	                  (10, 5.433888039868804),
+[92mINFO [0m:      	                  (11, 5.346234937742692),
+[92mINFO [0m:      	                  (12, 5.27628254893721),
+[92mINFO [0m:      	                  (13, 5.192035013959634),
+[92mINFO [0m:      	                  (14, 5.113097001590925),
+[92mINFO [0m:      	                  (15, 5.039056628790192),
+[92mINFO [0m:      	                  (16, 4.989514165400625),
+[92mINFO [0m:      	                  (17, 4.893446611826727),
+[92mINFO [0m:      	                  (18, 4.820129834200316),
+[92mINFO [0m:      	                  (19, 4.726297058873244),
+[92mINFO [0m:      	                  (20, 4.661699344715148),
+[92mINFO [0m:      	                  (21, 4.597170689265175),
+[92mINFO [0m:      	                  (22, 4.5285378406375365),
+[92mINFO [0m:      	                  (23, 4.43696820785013),
+[92mINFO [0m:      	                  (24, 4.365200827732037),
+[92mINFO [0m:      	                  (25, 4.281667102867314),
+[92mINFO [0m:      	                  (26, 4.209988075179554),
+[92mINFO [0m:      	                  (27, 4.150336284729615),
+[92mINFO [0m:      	                  (28, 4.099553066907432),
+[92mINFO [0m:      	                  (29, 4.01923009347542),
+[92mINFO [0m:      	                  (30, 3.957895332330203)],
+[92mINFO [0m:      	 'roc_auc_test': [(1, 0.5992161376470496),
+[92mINFO [0m:      	                  (2, 0.6002167776947304),
+[92mINFO [0m:      	                  (3, 0.6013769772255229),
+[92mINFO [0m:      	                  (4, 0.6025967476408421),
+[92mINFO [0m:      	                  (5, 0.6036788263661036),
+[92mINFO [0m:      	                  (6, 0.6045665079517328),
+[92mINFO [0m:      	                  (7, 0.6056911157641752),
+[92mINFO [0m:      	                  (8, 0.6066214772493513),
+[92mINFO [0m:      	                  (9, 0.6071506778412598),
+[92mINFO [0m:      	                  (10, 0.608242559370304),
+[92mINFO [0m:      	                  (11, 0.6091941853990706),
+[92mINFO [0m:      	                  (12, 0.610012945733488),
+[92mINFO [0m:      	                  (13, 0.6109675880095723),
+[92mINFO [0m:      	                  (14, 0.6119576711916409),
+[92mINFO [0m:      	                  (15, 0.6127901554513542),
+[92mINFO [0m:      	                  (16, 0.6133529872008561),
+[92mINFO [0m:      	                  (17, 0.6144220960626511),
+[92mINFO [0m:      	                  (18, 0.6153354157504815),
+[92mINFO [0m:      	                  (19, 0.6164707312409022),
+[92mINFO [0m:      	                  (20, 0.6172171016396923),
+[92mINFO [0m:      	                  (21, 0.6180447599036972),
+[92mINFO [0m:      	                  (22, 0.618878149037606),
+[92mINFO [0m:      	                  (23, 0.6199771187478471),
+[92mINFO [0m:      	                  (24, 0.6208803340071629),
+[92mINFO [0m:      	                  (25, 0.6219278767006357),
+[92mINFO [0m:      	                  (26, 0.6228077160432385),
+[92mINFO [0m:      	                  (27, 0.623548053947393),
+[92mINFO [0m:      	                  (28, 0.6241641224620541),
+[92mINFO [0m:      	                  (29, 0.6252632429846611),
+[92mINFO [0m:      	                  (30, 0.6260525949077299)]}
+[92mINFO [0m:

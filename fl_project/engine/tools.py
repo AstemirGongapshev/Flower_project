@@ -159,20 +159,17 @@ def prepare_data(
 def train(
     model: torch.nn.Module,
     train_loader: DataLoader,
-    lr: float,
     num_epochs: int,
     device: str,
+    lr: float,
     is_proximal=False,
-    proximal_mu=0,
+    proximal_mu=0.0,
     global_params: Optional[List[np.ndarray]] = None,
 ) -> None:
     try:
         model.to(device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.SGD(
-            model.parameters(), lr=lr
-        )  # TODO optimize = torch.optim.SGD()
-
+        optimizer = torch.optim.SGD(model.parameters(), lr=lr)
         for epoch in range(num_epochs):
             model.train()
             epoch_loss = 0.0
