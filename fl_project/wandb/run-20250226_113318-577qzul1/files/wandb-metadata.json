@@ -1,0 +1,29 @@
+{
+  "os":  "Windows-11-10.0.22631-SP0",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2025-02-26T08:33:18.448271Z",
+  "program":  "<python with no main file>",
+  "git":  {
+    "remote":  "https://github.com/AstemirGongapshev/Flower_project.git",
+    "commit":  "e4c611583be2dd7ddcb9cf8a41d75645ac7f57cd"
+  },
+  "email":  "astemirg001@gmail.com",
+  "root":  "C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project",
+  "host":  "KOMPUTER",
+  "executable":  "C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\.venv\\Scripts\\python.exe",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "disk":  {
+    "/":  {
+      "total":  "511987150848",
+      "used":  "449308569600"
+    }
+  },
+  "memory":  {
+    "total":  "7879585792"
+  },
+  "cpu":  {
+    "count":  6,
+    "countLogical":  12
+  }
+}

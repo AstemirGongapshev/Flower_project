@@ -1,0 +1,43 @@
+{"time":"2025-02-26T11:30:52.1973888+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113052-ecffkead\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:30:52.3054921+03:00","level":"INFO","msg":"created new stream","id":"ecffkead"}
+{"time":"2025-02-26T11:30:52.3054921+03:00","level":"INFO","msg":"stream: started","id":"ecffkead"}
+{"time":"2025-02-26T11:30:52.3054921+03:00","level":"INFO","msg":"sender: started","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:30:52.3054921+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:30:52.3054921+03:00","level":"INFO","msg":"handler: started","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:30:52.7662048+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:31:12.7669643+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:12.7732798+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:31:22.7680122+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:22.7763598+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:31:52.7665209+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:52.777011+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:02.7684701+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:02.7780314+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:12.7664002+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:12.7736771+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:22.7664967+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:22.7774514+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:32.7665347+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:32.7774994+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:42.7675396+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:42.7778017+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:32:52.7668437+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:52.7752338+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:33:02.7718341+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:02.7929665+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:33:12.7680545+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:12.7798674+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:33:22.7668233+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:22.7836466+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:33:32.7667152+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:32.7863355+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 13932"}
+{"time":"2025-02-26T11:33:37.3100173+03:00","level":"INFO","msg":"stream: closing","id":"ecffkead"}
+{"time":"2025-02-26T11:33:37.3100173+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3350622+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2107895+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.6018376+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/ecffkead/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:40.9725568+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/ecffkead/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"handler: closed","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"sender: closed","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ecffkead"}
+{"time":"2025-02-26T11:33:46.1532995+03:00","level":"INFO","msg":"stream: closed","id":"ecffkead"}

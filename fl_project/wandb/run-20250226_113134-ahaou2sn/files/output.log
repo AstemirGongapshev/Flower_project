@@ -1,0 +1,108 @@
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+ITS INITIAL PARAMETERS Model initialized: <generator object Module.parameters at 0x0000014C19BAF5A0>
+==========
+GET MODEL PARAMETERS Model parameters: [array([[ 0.24087279,  0.01385382, -1.0614655 , ...,  0.09072461,
+         0.0618009 , -1.1622567 ],
+       [ 2.1717212 , -0.23059295,  1.2221802 , ...,  0.849327  ,
+         0.52721816, -0.20360196]], shape=(2, 594), dtype=float32), array([0., 0.], dtype=float32)]
+[93mWARNING [0m:   DEPRECATED FEATURE: flwr.client.start_client() is deprecated.
+	Instead, use the `flower-supernode` CLI command to start a SuperNode as shown below:
+
+		$ flower-supernode --insecure --superlink='<IP>:<PORT>'
+
+	To view all available options, run:
+
+		$ flower-supernode --help
+
+	Using `start_client()` is deprecated.
+
+            This is a deprecated feature. It will be removed
+            entirely in future versions of Flower.
+
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 1c8dfc50-30ab-4ab2-b4e3-3fe351505ad5
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message d8afe7dd-71d9-4992-a47c-01940671ae9b
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 1b5b482d-ff4a-459a-982e-6f9faaf88a1d
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message d8408bc4-04eb-4dd0-827f-fffb91b18165
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message a4a10784-130f-4c6f-ad43-3cacf82c1683
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message bdbafb8b-c368-4632-96b2-e86c7b8bc7d8
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message bd9c8e0a-af8a-4fb8-bcf7-ef45a3acf149
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message d32e3abf-590b-49b1-97fe-5391fa00c777
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 8e50ac14-28ee-46fd-a04e-ba8631a7086e
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message d1487176-99ec-45a8-bbc3-1369ed38d571
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 50d53f13-ab56-48c1-a4a7-d23580a56c43
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message 3a49a1d7-f029-4bfb-9b0a-7cc4ac52bc10
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message c3349069-6669-4f9d-a752-06849df885c9
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message 5d511096-154a-4a4b-b4d3-7b458bb066cb
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 0e70ea80-5eab-4367-a926-f3b484621044
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message fd019d41-51a1-44e9-abaf-4697c59c2964
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message 6fa17921-0fda-41d9-bbe0-fa6bd9ff9146
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message 5ca1854b-3351-4ed7-90ec-206d327caf5d
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: train message a6ac8379-b43c-4564-babc-153cc332000a
+[92mINFO [0m:      Sent reply                          
+[92mINFO [0m:
+[92mINFO [0m:      Received: evaluate message 58797f2b-18fd-4c5e-8ec8-27764b830d00
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[92mINFO [0m:      Sent reply
+[92mINFO [0m:
+[92mINFO [0m:      Received: reconnect message be7af3ad-21fe-449a-9f00-faca96cd5eb0
+[92mINFO [0m:      Disconnect and shut down
+[0m

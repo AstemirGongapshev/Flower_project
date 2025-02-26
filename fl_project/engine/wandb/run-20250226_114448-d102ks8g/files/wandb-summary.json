@@ -1,0 +1,1 @@
+{"f1_score":0.1993047508690614,"_step":20,"accuracy":0.5518806744487679,"best_params":{"lr":0.0011062001603993382,"num_epochs":4,"optimizer":"AdamW"},"loss":0.9224789062606973,"optimizer":"AdamW","roc_auc":0.7494711010328234,"num_epochs":2,"lr":0.0013003414183798026,"_wandb":{"runtime":13},"momentum":0,"_timestamp":1.7405595013460329e+09,"_runtime":13.0250239}

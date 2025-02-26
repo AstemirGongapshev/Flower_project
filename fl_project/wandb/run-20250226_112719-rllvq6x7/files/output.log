@@ -1,0 +1,8 @@
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+Traceback (most recent call last):
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\engine\fl_optuna.py", line 10, in <module>
+    from client_1 import client_fn
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\engine\client_1.py", line 6, in <module>
+    from .model import LogisticRegressionModel, MLPModel
+ImportError: attempted relative import with no known parent package

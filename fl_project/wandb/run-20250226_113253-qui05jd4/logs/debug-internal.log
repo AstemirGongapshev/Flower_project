@@ -1,0 +1,23 @@
+{"time":"2025-02-26T11:32:53.6588815+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113253-qui05jd4\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:32:53.7679468+03:00","level":"INFO","msg":"created new stream","id":"qui05jd4"}
+{"time":"2025-02-26T11:32:53.7679468+03:00","level":"INFO","msg":"stream: started","id":"qui05jd4"}
+{"time":"2025-02-26T11:32:53.7679468+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:32:53.7679468+03:00","level":"INFO","msg":"sender: started","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:32:53.7679468+03:00","level":"INFO","msg":"handler: started","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:32:54.3420071+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:33:14.3423265+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:14.3499134+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17012"}
+{"time":"2025-02-26T11:33:24.3424919+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:24.3566031+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17012"}
+{"time":"2025-02-26T11:33:34.3428346+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:34.3545873+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 17012"}
+{"time":"2025-02-26T11:33:37.3105632+03:00","level":"INFO","msg":"stream: closing","id":"qui05jd4"}
+{"time":"2025-02-26T11:33:37.3105632+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3268522+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.3921316+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.7505632+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/qui05jd4/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:41.5132507+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/qui05jd4/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:46.1403113+03:00","level":"INFO","msg":"handler: closed","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:33:46.1403113+03:00","level":"INFO","msg":"sender: closed","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:33:46.1403113+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"qui05jd4"}
+{"time":"2025-02-26T11:33:46.1408858+03:00","level":"INFO","msg":"stream: closed","id":"qui05jd4"}

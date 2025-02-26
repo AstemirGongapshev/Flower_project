@@ -1,0 +1,10 @@
+2025-02-26 12:16:19,347 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121619-w9uyhwh4\logs\debug.log
+2025-02-26 12:16:19,353 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121619-w9uyhwh4\logs\debug-internal.log
+2025-02-26 12:16:19,353 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:16:19,353 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:16:19,355 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:16:21,318 INFO    MainThread:16380 [wandb_run.py:_finish():2110] finishing run astemirg001-some/local_optimize_2/bh16q930
+2025-02-26 12:16:21,320 INFO    MainThread:16380 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-26 12:16:21,321 INFO    MainThread:16380 [wandb_run.py:_restore():2332] restore
+2025-02-26 12:16:21,322 INFO    MainThread:16380 [wandb_run.py:_restore():2338] restore done

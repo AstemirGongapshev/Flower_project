@@ -1,0 +1,36 @@
+C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\google\protobuf\internal\well_known_types.py:174: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  self.FromDatetime(datetime.datetime.utcnow())
+[32m[I 2025-02-26 11:29:59,738][0m A new study created in memory with name: no-name-98249bea-7f74-410b-8ec1-b05db9f63807[0m
+[33m[W 2025-02-26 11:30:23,806][0m Trial 0 failed with parameters: {'optimizer': 'RMSprop', 'learning_rate': 0.006808419524826125} because of the following error: The value [1, 0.5084246803833529] could not be cast to float.[0m
+[33m[W 2025-02-26 11:30:23,808][0m Trial 0 failed with value [[1, 0.5084246803833529], [2, 0.5106098007527347], [3, 0.5125023451322895], [4, 0.5144908061765505], [5, 0.5166679334905401], [6, 0.5191162214384001], [7, 0.5209582436753818], [8, 0.5224898940633615], [9, 0.5251390640825873], [10, 0.5274081869397698]].[0m
+[33m[W 2025-02-26 11:30:45,957][0m Trial 1 failed with parameters: {'optimizer': 'RMSprop', 'learning_rate': 0.0003609254520355911} because of the following error: The value [1, 0.5653212092256147] could not be cast to float.[0m
+[33m[W 2025-02-26 11:30:45,959][0m Trial 1 failed with value [[1, 0.5653212092256147], [2, 0.5678902978785526], [3, 0.5707196886750168], [4, 0.5732206101385724], [5, 0.5752710550652141], [6, 0.577369759948941], [7, 0.5798089991548474], [8, 0.5823833662405916], [9, 0.5851497174681137], [10, 0.5872478191023768]].[0m
+[33m[W 2025-02-26 11:31:06,168][0m Trial 2 failed with parameters: {'optimizer': 'Adam', 'learning_rate': 0.00016609162511341423} because of the following error: The value [1, 0.5300508720272621] could not be cast to float.[0m
+[33m[W 2025-02-26 11:31:06,169][0m Trial 2 failed with value [[1, 0.5300508720272621], [2, 0.5304607800377513], [3, 0.530184039346343], [4, 0.529718934009938], [5, 0.5294391770712118], [6, 0.5297061149588372], [7, 0.53049275225932], [8, 0.5304870213894162], [9, 0.5311270690702539], [10, 0.5311806074601447]].[0m
+[33m[W 2025-02-26 11:31:27,779][0m Trial 3 failed with parameters: {'optimizer': 'SGD', 'learning_rate': 0.0096847053477124} because of the following error: The value [1, 0.5188002695318602] could not be cast to float.[0m
+[33m[W 2025-02-26 11:31:27,780][0m Trial 3 failed with value [[1, 0.5188002695318602], [2, 0.517679432028565], [3, 0.5163540929571228], [4, 0.5149065958693095], [5, 0.5136889368271129], [6, 0.512806382861924], [7, 0.5119533881204495], [8, 0.5117706035329908], [9, 0.5106879215582658], [10, 0.5098851473346326]].[0m
+[33m[W 2025-02-26 11:31:48,356][0m Trial 4 failed with parameters: {'optimizer': 'Adam', 'learning_rate': 0.009466336255731154} because of the following error: The value [1, 0.5809530617624898] could not be cast to float.[0m
+[33m[W 2025-02-26 11:31:48,358][0m Trial 4 failed with value [[1, 0.5809530617624898], [2, 0.5803959608828918], [3, 0.580154057848004], [4, 0.5795743351135224], [5, 0.5792066545654824], [6, 0.5787119900053628], [7, 0.5780794829428197], [8, 0.5777344242496631], [9, 0.5772473003078381], [10, 0.5769229029088085]].[0m
+[33m[W 2025-02-26 11:32:07,875][0m Trial 5 failed with parameters: {'optimizer': 'Adam', 'learning_rate': 0.0006878872840688605} because of the following error: The value [1, 0.5081379860757957] could not be cast to float.[0m
+[33m[W 2025-02-26 11:32:07,878][0m Trial 5 failed with value [[1, 0.5081379860757957], [2, 0.5090499484523333], [3, 0.5101391153587916], [4, 0.5118322857906398], [5, 0.5129556871041552], [6, 0.5144393791597821], [7, 0.5164866570267402], [8, 0.517609455090792], [9, 0.5182837371786867], [10, 0.5193837625754891]].[0m
+[33m[W 2025-02-26 11:32:28,002][0m Trial 6 failed with parameters: {'optimizer': 'Adam', 'learning_rate': 0.0008642083332514933} because of the following error: The value [1, 0.48760427921039473] could not be cast to float.[0m
+[33m[W 2025-02-26 11:32:28,003][0m Trial 6 failed with value [[1, 0.48760427921039473], [2, 0.48867293563509195], [3, 0.4908723831792332], [4, 0.4917814801208188], [5, 0.4934573071305896], [6, 0.49532059391116184], [7, 0.49758670052102655], [8, 0.49934200564762143], [9, 0.5013680189709891], [10, 0.5040361913483168]].[0m
+[33m[W 2025-02-26 11:32:47,841][0m Trial 7 failed with parameters: {'optimizer': 'SGD', 'learning_rate': 0.002790760651716757} because of the following error: The value [1, 0.41160751504051724] could not be cast to float.[0m
+[33m[W 2025-02-26 11:32:47,848][0m Trial 7 failed with value [[1, 0.41160751504051724], [2, 0.41252958184556926], [3, 0.4134048968171955], [4, 0.4141859540601403], [5, 0.4150381947397853], [6, 0.41582814991231765], [7, 0.4168033026701631], [8, 0.41802186658655516], [9, 0.41880458276552474], [10, 0.419826638169162]].[0m
+[33m[W 2025-02-26 11:33:10,308][0m Trial 8 failed with parameters: {'optimizer': 'SGD', 'learning_rate': 0.0011455949283990813} because of the following error: The value [1, 0.39469149520808783] could not be cast to float.[0m
+[33m[W 2025-02-26 11:33:10,310][0m Trial 8 failed with value [[1, 0.39469149520808783], [2, 0.39563874767824364], [3, 0.39662611623772615], [4, 0.3976085079891343], [5, 0.39878077250919797], [6, 0.3998590809253122], [7, 0.40091401342471356], [8, 0.40188554668577753], [9, 0.4030027646922915], [10, 0.4039978246824344]].[0m
+[33m[W 2025-02-26 11:33:37,232][0m Trial 9 failed with parameters: {'optimizer': 'RMSprop', 'learning_rate': 0.008532350183321274} because of the following error: The value [1, 0.4173329556991691] could not be cast to float.[0m
+[33m[W 2025-02-26 11:33:37,233][0m Trial 9 failed with value [[1, 0.4173329556991691], [2, 0.419751081173851], [3, 0.42048418008444277], [4, 0.42140639770186084], [5, 0.4233735942025313], [6, 0.4248032954311695], [7, 0.42644790428120116], [8, 0.4293057986148185], [9, 0.43004025483670333], [10, 0.43162680092586725]].[0m
+Traceback (most recent call last):
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\engine\fl_optuna.py", line 79, in <module>
+    print("Лучшие параметры:", study.best_params)
+                               ^^^^^^^^^^^^^^^^^
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\optuna\study\study.py", line 119, in best_params
+    return self.best_trial.params
+           ^^^^^^^^^^^^^^^
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\optuna\study\study.py", line 162, in best_trial
+    best_trial = self._storage.get_best_trial(self._study_id)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\optuna\storages\_in_memory.py", line 249, in get_best_trial
+    raise ValueError("No trials are completed yet.")
+ValueError: No trials are completed yet.

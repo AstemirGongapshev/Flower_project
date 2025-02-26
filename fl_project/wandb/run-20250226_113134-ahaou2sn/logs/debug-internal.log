@@ -1,0 +1,37 @@
+{"time":"2025-02-26T11:31:34.725121+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113134-ahaou2sn\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:31:34.8312662+03:00","level":"INFO","msg":"created new stream","id":"ahaou2sn"}
+{"time":"2025-02-26T11:31:34.8312662+03:00","level":"INFO","msg":"stream: started","id":"ahaou2sn"}
+{"time":"2025-02-26T11:31:34.8312662+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:31:34.8312662+03:00","level":"INFO","msg":"sender: started","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:31:34.8312662+03:00","level":"INFO","msg":"handler: started","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:31:35.2391001+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:31:55.2392319+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:55.2500518+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:05.2404309+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:05.2507939+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:15.2397335+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:15.2515362+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:25.2396068+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:25.2524582+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:35.2410395+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:35.2650792+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:45.2428073+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:45.2554791+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:32:55.240151+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:55.2487387+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:33:05.241218+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:05.2613759+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:33:15.2477797+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:15.2597828+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:33:25.2396892+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:25.2491994+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:33:35.2432146+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:35.2613839+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 7908"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"stream: closing","id":"ahaou2sn"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3183653+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.1492191+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.5146005+03:00","level":"INFO","msg":"handler: closed","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:33:38.5146005+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:33:38.5146005+03:00","level":"INFO","msg":"sender: closed","stream_id":"ahaou2sn"}
+{"time":"2025-02-26T11:33:38.5146005+03:00","level":"INFO","msg":"stream: closed","id":"ahaou2sn"}

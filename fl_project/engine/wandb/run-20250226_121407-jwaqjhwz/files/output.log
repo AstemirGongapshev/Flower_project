@@ -1,0 +1,14 @@
+[I 2025-02-26 12:14:08,691] A new study created in memory with name: no-name-a7fb6445-4c60-485c-a4ac-145c701f7348
+[W 2025-02-26 12:14:10,198] Trial 0 failed with parameters: {'model': 'MLPModel', 'optimizer': 'Adam', 'learning_rate': 1.1221660138433963e-05, 'num_epochs': 7} because of the following error: TypeError("eval() missing 1 required positional argument: 'device'").
+Traceback (most recent call last):
+  File "c:\Users\Астемир\Desktop\Flower_project\fl_project\.venv\Lib\site-packages\optuna\study\_optimize.py", line 197, in _run_trial
+    value_or_values = func(trial)
+                      ^^^^^^^^^^^
+  File "C:\Users\Астемир\AppData\Local\Temp\ipykernel_16380\101831932.py", line 7, in <lambda>
+    study.optimize(lambda trial: objective(trial, train_data, test_data), n_trials=20)
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Астемир\AppData\Local\Temp\ipykernel_16380\2295523838.py", line 32, in objective
+    results = eval(model=model, test_loader=test_loader)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: eval() missing 1 required positional argument: 'device'
+[W 2025-02-26 12:14:10,202] Trial 0 failed with value None.

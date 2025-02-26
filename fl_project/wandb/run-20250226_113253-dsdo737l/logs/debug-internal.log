@@ -1,0 +1,17 @@
+{"time":"2025-02-26T11:32:53.5259033+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113253-dsdo737l\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:32:53.6320089+03:00","level":"INFO","msg":"created new stream","id":"dsdo737l"}
+{"time":"2025-02-26T11:32:53.6325165+03:00","level":"INFO","msg":"stream: started","id":"dsdo737l"}
+{"time":"2025-02-26T11:32:53.6325165+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:32:53.6325165+03:00","level":"INFO","msg":"handler: started","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:32:53.6325165+03:00","level":"INFO","msg":"sender: started","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:32:54.3600686+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:33:08.183845+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:08.1856173+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:08.9524377+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:09.1877367+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, summary, console lines 0-178","runtime_seconds":0.2347881}],"total_operations":1}}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"stream: closing","id":"dsdo737l"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"handler: closed","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:33:37.3172673+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:33:37.3177846+03:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-02-26T11:33:37.3177846+03:00","level":"INFO","msg":"sender: closed","stream_id":"dsdo737l"}
+{"time":"2025-02-26T11:33:37.3253976+03:00","level":"INFO","msg":"stream: closed","id":"dsdo737l"}

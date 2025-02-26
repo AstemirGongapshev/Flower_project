@@ -1,0 +1,55 @@
+{"time":"2025-02-26T11:30:05.395549+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113005-sn4c4eph\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:30:05.505365+03:00","level":"INFO","msg":"created new stream","id":"sn4c4eph"}
+{"time":"2025-02-26T11:30:05.505365+03:00","level":"INFO","msg":"stream: started","id":"sn4c4eph"}
+{"time":"2025-02-26T11:30:05.505365+03:00","level":"INFO","msg":"handler: started","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:30:05.505365+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:30:05.505365+03:00","level":"INFO","msg":"sender: started","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:30:05.9359367+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:30:25.9368518+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:25.9447322+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:30:35.9395378+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:35.9537587+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:30:45.9359456+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:45.9427676+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:30:55.9361086+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:55.9545121+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:05.9363007+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:05.9520512+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:15.9386402+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:15.9548671+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:25.9363196+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:25.9571344+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:35.9363887+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:35.9473982+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:45.9370793+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:45.9481786+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:31:55.9365428+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:55.9468848+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:05.9420988+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:05.9608489+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:15.9369398+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:15.9487867+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:25.9470413+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:25.965713+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:35.9378805+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:35.9474518+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:45.9362214+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:45.9468244+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:32:55.9362173+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:55.9463515+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:33:05.9524421+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:05.9703129+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:33:15.936138+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:15.9442849+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:33:25.9364325+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:25.9456779+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:33:35.9366253+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:35.9505349+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 1316"}
+{"time":"2025-02-26T11:33:37.3100173+03:00","level":"INFO","msg":"stream: closing","id":"sn4c4eph"}
+{"time":"2025-02-26T11:33:37.3100173+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3315137+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2060737+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.6314923+03:00","level":"INFO","msg":"handler: closed","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:33:38.6314923+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:33:38.6314923+03:00","level":"INFO","msg":"sender: closed","stream_id":"sn4c4eph"}
+{"time":"2025-02-26T11:33:38.6326965+03:00","level":"INFO","msg":"stream: closed","id":"sn4c4eph"}

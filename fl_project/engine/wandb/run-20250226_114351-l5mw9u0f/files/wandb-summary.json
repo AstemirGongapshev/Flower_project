@@ -1,0 +1,1 @@
+{"best_params":{"num_epochs":10,"optimizer":"AdamW","lr":0.0012441036146380925},"_timestamp":1.7405594646084788e+09,"num_epochs":9,"_step":20,"lr":0.000350133587844183,"optimizer":"AdamW","roc_auc":0.7860750719827423,"accuracy":0.6488326848249028,"_wandb":{"runtime":33},"momentum":0,"f1_score":0.2291814946619217,"_runtime":33.4163558,"loss":0.6658817978059322}

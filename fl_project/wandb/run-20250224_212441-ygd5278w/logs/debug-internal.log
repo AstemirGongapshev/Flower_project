@@ -1,0 +1,16 @@
+{"time":"2025-02-24T21:24:41.8257168+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250224_212441-ygd5278w\\logs\\debug-core.log"}
+{"time":"2025-02-24T21:24:41.9335685+03:00","level":"INFO","msg":"created new stream","id":"ygd5278w"}
+{"time":"2025-02-24T21:24:41.9341099+03:00","level":"INFO","msg":"stream: started","id":"ygd5278w"}
+{"time":"2025-02-24T21:24:41.9341099+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:24:41.9341099+03:00","level":"INFO","msg":"sender: started","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:24:41.9341099+03:00","level":"INFO","msg":"handler: started","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:24:42.3646986+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-24T21:25:27.0317008+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-24T21:25:27.0337411+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-24T21:25:28.0438223+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.515494,"progress":"227B/227B"},{"desc":"uploading config.yaml","runtime_seconds":0.2989632,"progress":"488B/488B"},{"desc":"uploading history steps 20-49, summary, console lines 230-778","runtime_seconds":0.0235118}],"total_operations":3}}
+{"time":"2025-02-24T21:25:28.4492465+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-24T21:25:29.9680774+03:00","level":"INFO","msg":"stream: closing","id":"ygd5278w"}
+{"time":"2025-02-24T21:25:29.9680774+03:00","level":"INFO","msg":"handler: closed","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:25:29.9680774+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:25:29.9680774+03:00","level":"INFO","msg":"sender: closed","stream_id":"ygd5278w"}
+{"time":"2025-02-24T21:25:29.9680774+03:00","level":"INFO","msg":"stream: closed","id":"ygd5278w"}

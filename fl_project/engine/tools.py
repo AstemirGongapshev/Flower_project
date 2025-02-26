@@ -52,52 +52,6 @@ def set_initial_parameters(model: torch.nn.Module) -> None:
             torch.nn.init.zeros_(param)
 
 
-# def prepare_data(
-#     df: pd.DataFrame,
-#     X_test: pd.DataFrame,
-#     y_test: pd.Series,
-#     random_state: int = 42,
-#     batch_size: int = 32,
-# ) -> Tuple[DataLoader, DataLoader, int]:
-#     if "Unnamed: 0" in df.columns:
-#         df = df.drop(columns=["Unnamed: 0"])
-#     if "Unnamed: 0" in X_test.columns:
-#         X_test = X_test.drop(columns=["Unnamed: 0"])
-
-#     try:
-#         X = df.drop(columns="Fraud")
-#         y = df["Fraud"]
-
-#         scaler = MinMaxScaler()
-#         X_train_scaled = scaler.fit_transform(X)
-#         X_test_scaled = scaler.transform(X_test)
-
-#         poly = PolynomialFeatures(degree=2, include_bias=False)
-#         X_train_poly = poly.fit_transform(X_train_scaled)
-#         X_test_poly = poly.transform(X_test_scaled)
-
-#         smote = SMOTE(random_state=random_state)
-#         X_train_resampled, y_train_resampled = smote.fit_resample(X_train_poly, y)
-
-#         X_train_tensor = torch.from_numpy(X_train_resampled.astype(np.float32))
-#         y_train_tensor = torch.from_numpy(y_train_resampled.to_numpy().astype(np.int64))
-
-#         X_test_tensor = torch.from_numpy(X_test_poly.astype(np.float32))
-#         y_test_tensor = torch.from_numpy(y_test.to_numpy().astype(np.int64))
-
-#         train_dataset = TensorDataset(X_train_tensor, y_train_tensor)
-#         test_dataset = TensorDataset(X_test_tensor, y_test_tensor)
-
-#         train_loader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True)
-#         test_loader = DataLoader(test_dataset, batch_size=batch_size, shuffle=False)
-
-#         input_dim = X_train_tensor.shape[1]
-#         return train_loader, test_loader, input_dim
-
-#     except Exception as e:
-#         logging.error(f"Failed to prepare data: {e}")
-#         raise
-
 
 def prepare_data(
     df: pd.DataFrame,
@@ -169,7 +123,7 @@ def train(
     try:
         model.to(device)
         criterion = nn.CrossEntropyLoss()
-        optimizer = torch.optim.SGD(model.parameters(), lr=lr)
+        optimizer = torch.optim.Adam(model.parameters(), lr=lr)
         for epoch in range(num_epochs):
             model.train()
             epoch_loss = 0.0

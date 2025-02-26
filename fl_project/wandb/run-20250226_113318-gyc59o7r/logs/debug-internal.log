@@ -1,0 +1,17 @@
+{"time":"2025-02-26T11:33:18.5020485+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113318-gyc59o7r\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:33:18.6090536+03:00","level":"INFO","msg":"created new stream","id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:18.6096098+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:18.6096639+03:00","level":"INFO","msg":"stream: started","id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:18.6096639+03:00","level":"INFO","msg":"handler: started","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:18.6096639+03:00","level":"INFO","msg":"sender: started","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:19.0006872+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:33:37.3112223+03:00","level":"INFO","msg":"stream: closing","id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:37.3112223+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3151365+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2060737+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.5867968+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/gyc59o7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:41.1323598+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/gyc59o7r/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"handler: closed","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"sender: closed","stream_id":"gyc59o7r"}
+{"time":"2025-02-26T11:33:46.1527873+03:00","level":"INFO","msg":"stream: closed","id":"gyc59o7r"}

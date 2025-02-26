@@ -1,0 +1,30 @@
+{"time":"2025-02-26T12:14:07.6856445+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"c:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\engine\\wandb\\run-20250226_121407-jwaqjhwz\\logs\\debug-core.log"}
+{"time":"2025-02-26T12:14:07.7979526+03:00","level":"INFO","msg":"created new stream","id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:07.7979526+03:00","level":"INFO","msg":"stream: started","id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:07.798495+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:07.7990655+03:00","level":"INFO","msg":"sender: started","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:07.7990655+03:00","level":"INFO","msg":"handler: started","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:08.481939+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T12:14:10.3835719+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:24.801827+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:24.8110943+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:29.7226362+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:29.7354187+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:30.3869399+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:30.3965226+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:30.6842997+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:30.694188+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:33.5229128+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:33.5313915+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:35.9432702+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:35.9465779+03:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-02-26T12:14:36.8247435+03:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-02-26T12:14:36.8372148+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T12:14:36.8378089+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T12:14:37.6685354+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T12:14:37.8540725+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary","runtime_seconds":0.1855371}],"total_operations":1}}
+{"time":"2025-02-26T12:14:39.054668+03:00","level":"INFO","msg":"stream: closing","id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:39.054668+03:00","level":"INFO","msg":"handler: closed","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:39.054668+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:39.054668+03:00","level":"INFO","msg":"sender: closed","stream_id":"jwaqjhwz"}
+{"time":"2025-02-26T12:14:39.054668+03:00","level":"INFO","msg":"stream: closed","id":"jwaqjhwz"}

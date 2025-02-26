@@ -1,0 +1,17 @@
+{"time":"2025-02-26T11:31:34.5969459+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113134-s9puuwox\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:31:34.7041321+03:00","level":"INFO","msg":"created new stream","id":"s9puuwox"}
+{"time":"2025-02-26T11:31:34.7041321+03:00","level":"INFO","msg":"stream: started","id":"s9puuwox"}
+{"time":"2025-02-26T11:31:34.7041321+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:31:34.7041321+03:00","level":"INFO","msg":"sender: started","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:31:34.7041321+03:00","level":"INFO","msg":"handler: started","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:31:35.0904468+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:31:46.4804204+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:31:46.4809285+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:31:47.2340634+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:31:47.4846941+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, summary, console lines 0-183","runtime_seconds":0.2506307}],"total_operations":1}}
+{"time":"2025-02-26T11:33:37.311157+03:00","level":"INFO","msg":"stream: closing","id":"s9puuwox"}
+{"time":"2025-02-26T11:33:37.311157+03:00","level":"INFO","msg":"handler: closed","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:33:37.3172673+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:33:37.3183653+03:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-02-26T11:33:37.3199224+03:00","level":"INFO","msg":"sender: closed","stream_id":"s9puuwox"}
+{"time":"2025-02-26T11:33:37.3207714+03:00","level":"INFO","msg":"stream: closed","id":"s9puuwox"}

@@ -1,0 +1,17 @@
+{"time":"2025-02-26T11:31:12.9929768+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113112-zel3nwlr\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:31:13.098717+03:00","level":"INFO","msg":"created new stream","id":"zel3nwlr"}
+{"time":"2025-02-26T11:31:13.098717+03:00","level":"INFO","msg":"stream: started","id":"zel3nwlr"}
+{"time":"2025-02-26T11:31:13.098717+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:31:13.098717+03:00","level":"INFO","msg":"sender: started","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:31:13.098717+03:00","level":"INFO","msg":"handler: started","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:31:13.5469583+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:31:25.7276248+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:31:25.7281314+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:31:26.6862735+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:31:26.7325254+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, summary, console lines 0-183","runtime_seconds":0.04561}],"total_operations":1}}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"stream: closing","id":"zel3nwlr"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"handler: closed","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-02-26T11:33:37.3106497+03:00","level":"INFO","msg":"sender: closed","stream_id":"zel3nwlr"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"stream: closed","id":"zel3nwlr"}

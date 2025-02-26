@@ -1,0 +1,15 @@
+{"time":"2025-02-26T11:33:18.9025885+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113318-iajwbmle\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:33:19.0088631+03:00","level":"INFO","msg":"created new stream","id":"iajwbmle"}
+{"time":"2025-02-26T11:33:19.0088631+03:00","level":"INFO","msg":"stream: started","id":"iajwbmle"}
+{"time":"2025-02-26T11:33:19.0088631+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:19.0088631+03:00","level":"INFO","msg":"handler: started","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:19.0088631+03:00","level":"INFO","msg":"sender: started","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:19.4716661+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"stream: closing","id":"iajwbmle"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3551039+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2534968+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.6399377+03:00","level":"INFO","msg":"handler: closed","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:38.6399377+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:38.6399377+03:00","level":"INFO","msg":"sender: closed","stream_id":"iajwbmle"}
+{"time":"2025-02-26T11:33:38.6399377+03:00","level":"INFO","msg":"stream: closed","id":"iajwbmle"}

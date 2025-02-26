@@ -29,11 +29,11 @@ class FlowerClient(NumPyClient):
         train(
             self.model,
             self.trainloader,
-            num_epochs=5,
+            num_epochs=1,
             device=self.device,
-            lr=0.01,
+            lr=0.001,
             is_proximal=False,
-            proximal_mu=0.5,
+            proximal_mu=1.0,
             global_params=self.global_parameters,
         )
         return get_model_parameters(self.model), len(self.trainloader.dataset), {}

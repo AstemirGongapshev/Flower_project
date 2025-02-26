@@ -1,0 +1,17 @@
+{"time":"2025-02-26T11:32:13.992795+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113213-zkwzhm3t\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:32:14.1000018+03:00","level":"INFO","msg":"created new stream","id":"zkwzhm3t"}
+{"time":"2025-02-26T11:32:14.1000018+03:00","level":"INFO","msg":"stream: started","id":"zkwzhm3t"}
+{"time":"2025-02-26T11:32:14.1000018+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:32:14.1000018+03:00","level":"INFO","msg":"handler: started","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:32:14.1000018+03:00","level":"INFO","msg":"sender: started","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:32:14.508557+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:32:25.9887076+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:32:25.989421+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:32:26.7977439+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:32:26.9950397+03:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 0-9, summary, console lines 0-178","runtime_seconds":0.196783}],"total_operations":1}}
+{"time":"2025-02-26T11:33:37.311157+03:00","level":"INFO","msg":"stream: closing","id":"zkwzhm3t"}
+{"time":"2025-02-26T11:33:37.311157+03:00","level":"INFO","msg":"handler: closed","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"WARN","msg":"sender: received Exit record more than once, ignoring"}
+{"time":"2025-02-26T11:33:37.312171+03:00","level":"INFO","msg":"sender: closed","stream_id":"zkwzhm3t"}
+{"time":"2025-02-26T11:33:37.3238979+03:00","level":"INFO","msg":"stream: closed","id":"zkwzhm3t"}

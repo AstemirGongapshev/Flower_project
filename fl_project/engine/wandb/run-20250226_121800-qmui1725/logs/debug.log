@@ -1,0 +1,145 @@
+2025-02-26 12:18:00,040 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121800-qmui1725\logs\debug.log
+2025-02-26 12:18:00,043 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121800-qmui1725\logs\debug-internal.log
+2025-02-26 12:18:00,045 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:00,047 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:00,049 INFO    MainThread:16380 [wandb_init.py:init():789] starting backend
+2025-02-26 12:18:00,051 INFO    MainThread:16380 [wandb_init.py:init():793] sending inform_init request
+2025-02-26 12:18:00,056 INFO    MainThread:16380 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn, using: spawn
+2025-02-26 12:18:00,060 INFO    MainThread:16380 [wandb_init.py:init():808] backend started and connected
+2025-02-26 12:18:00,064 INFO    MainThread:16380 [wandb_run.py:_label_probe_notebook():1196] probe notebook
+2025-02-26 12:18:00,066 INFO    MainThread:16380 [wandb_init.py:init():901] updated telemetry
+2025-02-26 12:18:00,104 INFO    MainThread:16380 [wandb_init.py:init():936] communicating run to backend with 90.0 second timeout
+2025-02-26 12:18:00,645 INFO    MainThread:16380 [wandb_init.py:init():994] starting run threads in backend
+2025-02-26 12:18:00,782 INFO    MainThread:16380 [wandb_run.py:_console_start():2385] atexit reg
+2025-02-26 12:18:00,782 INFO    MainThread:16380 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2025-02-26 12:18:00,782 INFO    MainThread:16380 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2025-02-26 12:18:00,787 INFO    MainThread:16380 [wandb_run.py:_redirect():2325] Redirects installed.
+2025-02-26 12:18:00,791 INFO    MainThread:16380 [wandb_init.py:init():1036] run started, returning control to user process
+2025-02-26 12:18:00,795 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121800-ku4vkuho\logs\debug.log
+2025-02-26 12:18:00,795 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121800-ku4vkuho\logs\debug-internal.log
+2025-02-26 12:18:00,803 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:00,803 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:00,803 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:02,095 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121802-w2iolh6o\logs\debug.log
+2025-02-26 12:18:02,098 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121802-w2iolh6o\logs\debug-internal.log
+2025-02-26 12:18:02,102 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:02,105 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:02,108 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:02,648 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121802-rwibnvhl\logs\debug.log
+2025-02-26 12:18:02,653 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121802-rwibnvhl\logs\debug-internal.log
+2025-02-26 12:18:02,657 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:02,660 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:02,664 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:03,752 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121803-5as1teh6\logs\debug.log
+2025-02-26 12:18:03,756 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121803-5as1teh6\logs\debug-internal.log
+2025-02-26 12:18:03,760 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:03,761 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:03,761 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:04,955 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121804-otbxoe9l\logs\debug.log
+2025-02-26 12:18:04,959 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121804-otbxoe9l\logs\debug-internal.log
+2025-02-26 12:18:04,963 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:04,963 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:04,963 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:05,250 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121805-nb62llam\logs\debug.log
+2025-02-26 12:18:05,253 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121805-nb62llam\logs\debug-internal.log
+2025-02-26 12:18:05,256 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:05,257 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:05,261 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:06,372 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121806-1yjzs5nu\logs\debug.log
+2025-02-26 12:18:06,375 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121806-1yjzs5nu\logs\debug-internal.log
+2025-02-26 12:18:06,379 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:06,381 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:06,384 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:07,604 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121807-u3hn3yps\logs\debug.log
+2025-02-26 12:18:07,608 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121807-u3hn3yps\logs\debug-internal.log
+2025-02-26 12:18:07,610 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:07,610 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:07,616 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:07,960 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121807-tkk0810j\logs\debug.log
+2025-02-26 12:18:07,964 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121807-tkk0810j\logs\debug-internal.log
+2025-02-26 12:18:07,968 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:07,972 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:07,975 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:08,467 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121808-wiafjteq\logs\debug.log
+2025-02-26 12:18:08,470 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121808-wiafjteq\logs\debug-internal.log
+2025-02-26 12:18:08,472 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:08,475 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:08,478 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:08,841 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121808-pga0x104\logs\debug.log
+2025-02-26 12:18:08,846 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121808-pga0x104\logs\debug-internal.log
+2025-02-26 12:18:08,849 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:08,851 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:08,855 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:09,581 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121809-96w41wru\logs\debug.log
+2025-02-26 12:18:09,581 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121809-96w41wru\logs\debug-internal.log
+2025-02-26 12:18:09,581 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:09,589 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:09,592 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:10,515 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121810-ofddf4ky\logs\debug.log
+2025-02-26 12:18:10,518 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121810-ofddf4ky\logs\debug-internal.log
+2025-02-26 12:18:10,522 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:10,525 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:10,529 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:11,310 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121811-w6kgaon1\logs\debug.log
+2025-02-26 12:18:11,313 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121811-w6kgaon1\logs\debug-internal.log
+2025-02-26 12:18:11,316 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:11,318 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:11,320 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:12,071 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121812-2ivo2er1\logs\debug.log
+2025-02-26 12:18:12,075 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121812-2ivo2er1\logs\debug-internal.log
+2025-02-26 12:18:12,075 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:12,075 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:12,083 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:12,827 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121812-bmb666lk\logs\debug.log
+2025-02-26 12:18:12,830 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121812-bmb666lk\logs\debug-internal.log
+2025-02-26 12:18:12,832 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:12,834 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:12,838 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:13,666 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121813-lsgp3j9z\logs\debug.log
+2025-02-26 12:18:13,672 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121813-lsgp3j9z\logs\debug-internal.log
+2025-02-26 12:18:13,677 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:13,680 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:13,683 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:14,577 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121814-qhpy1qzn\logs\debug.log
+2025-02-26 12:18:14,583 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121814-qhpy1qzn\logs\debug-internal.log
+2025-02-26 12:18:14,583 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:14,588 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:14,592 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:15,412 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121815-2qsiem4n\logs\debug.log
+2025-02-26 12:18:15,416 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121815-2qsiem4n\logs\debug-internal.log
+2025-02-26 12:18:15,419 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:15,421 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:15,426 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:16,068 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():637] Logging user logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121816-5mqmct6w\logs\debug.log
+2025-02-26 12:18:16,074 INFO    MainThread:16380 [wandb_init.py:setup_run_log_directory():638] Logging internal logs to c:\Users\Астемир\Desktop\Flower_project\fl_project\engine\wandb\run-20250226_121816-5mqmct6w\logs\debug-internal.log
+2025-02-26 12:18:16,078 INFO    MainThread:16380 [wandb_init.py:init():756] calling init triggers
+2025-02-26 12:18:16,081 INFO    MainThread:16380 [wandb_init.py:init():761] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-02-26 12:18:16,084 INFO    MainThread:16380 [wandb_init.py:init():781] wandb.init() called when a run is still active
+2025-02-26 12:18:16,964 INFO    MainThread:16380 [wandb_run.py:_finish():2110] finishing run astemirg001-some/local_optimize_6/qmui1725
+2025-02-26 12:18:16,968 INFO    MainThread:16380 [wandb_run.py:_atexit_cleanup():2350] got exitcode: 0
+2025-02-26 12:18:16,972 INFO    MainThread:16380 [wandb_run.py:_restore():2332] restore
+2025-02-26 12:18:16,975 INFO    MainThread:16380 [wandb_run.py:_restore():2338] restore done
+2025-02-26 12:18:19,220 INFO    MainThread:16380 [wandb_run.py:_footer_history_summary_info():3963] rendering history
+2025-02-26 12:18:19,223 INFO    MainThread:16380 [wandb_run.py:_footer_history_summary_info():3995] rendering summary
+2025-02-26 12:18:19,224 INFO    MainThread:16380 [wandb_run.py:_footer_sync_info():3924] logging synced files

@@ -1,0 +1,57 @@
+{"time":"2025-02-26T11:30:05.48311+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113005-jim57hv3\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:30:05.6063879+03:00","level":"INFO","msg":"created new stream","id":"jim57hv3"}
+{"time":"2025-02-26T11:30:05.6063879+03:00","level":"INFO","msg":"stream: started","id":"jim57hv3"}
+{"time":"2025-02-26T11:30:05.6063879+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:30:05.6063879+03:00","level":"INFO","msg":"handler: started","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:30:05.6063879+03:00","level":"INFO","msg":"sender: started","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:30:06.0418014+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:30:26.0423061+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:26.0515969+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:30:36.0591407+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:36.0691534+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:30:46.0426215+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:46.0563112+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:30:56.0431007+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:30:56.0546174+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:06.0423493+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:06.0537053+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:16.0424499+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:16.0565135+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:26.0423171+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:26.0559346+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:36.0440433+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:36.0555363+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:46.0424885+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:46.0513206+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:31:56.0428627+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:31:56.0525909+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:06.0423592+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:06.0497205+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:16.0423221+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:16.0526299+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:26.042725+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:26.0497596+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:36.0429144+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:36.0543801+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:46.0424273+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:46.0515314+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:32:56.0426586+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:32:56.0532225+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:33:06.0457133+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:06.0686574+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:33:16.0424409+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:16.0510553+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:33:26.0425101+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:26.0526414+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:33:36.042213+03:00","level":"ERROR","msg":"monitor: memory: error sampling metrics: The parameter is incorrect."}
+{"time":"2025-02-26T11:33:36.057829+03:00","level":"ERROR","msg":"monitor: cpu: error sampling metrics: could not get CreationDate: The parameter is incorrect.\ncouldn't find pid: 3224"}
+{"time":"2025-02-26T11:33:37.3135895+03:00","level":"INFO","msg":"stream: closing","id":"jim57hv3"}
+{"time":"2025-02-26T11:33:37.3135895+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.3584049+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2534435+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.5949467+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/jim57hv3/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:41.2997575+03:00","level":"INFO","msg":"api: retrying HTTP error","status":429,"url":"https://api.wandb.ai/files/astemirg001-some/federated-learning_tests_2/jim57hv3/file_stream","body":"{\"error\":\"rate limit exceeded\"}"}
+{"time":"2025-02-26T11:33:46.2482802+03:00","level":"INFO","msg":"handler: closed","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:33:46.2482802+03:00","level":"INFO","msg":"sender: closed","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:33:46.2482802+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jim57hv3"}
+{"time":"2025-02-26T11:33:46.2494914+03:00","level":"INFO","msg":"stream: closed","id":"jim57hv3"}

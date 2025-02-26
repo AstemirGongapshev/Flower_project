@@ -14,9 +14,9 @@ MAX_ROUNDS_WITHOUT_IMPROVEMENT = 5
 
 
 wandb.init(
-    project="federated-learning_2",
-    name="server_fedavg $5 epochs",
-    config={"num_rounds": 20},
+    project="federated-learning_tests_2",
+    name="FedAvg (Heterogeneous) with Adam learning_rate(0.001)",
+    config={"num_rounds": 50},
 )
 
 
@@ -82,7 +82,7 @@ class FedAvgCustom(FedAvg):
             server_round, results, failures
         )
         print(
-            f"📊 [Round {server_round}] Aggregated training metrics: {metrics_aggregated}"
+            f"[Round {server_round}] Aggregated training metrics: {metrics_aggregated}"
         )
         return parameters_aggregated, metrics_aggregated
 
@@ -97,21 +97,21 @@ class FedAvgCustom(FedAvg):
             server_round, results, failures
         )
         print(
-            f"📊 [Round {server_round}] Aggregated evaluation metrics: {metrics_aggregated}"
+            f"[Round {server_round}] Aggregated evaluation metrics: {metrics_aggregated}"
         )
 
-        # Логирование в wandb
+        
         wandb.log(
             {
                 "server_round": server_round,
                 "Loss": loss_aggregated,
-                "ROC_AUC": metrics_aggregated.get("roc_auc_test", None),
+                "ROC_AUC": metrics_aggregated.get("roc_auc_test", None), #TODO TEST\...
                 "Accuracy": metrics_aggregated.get("accuracy_test", None),
                 "F1_Score": metrics_aggregated.get("f1_test", None),
             }
         )
 
-        # Добавляем историю ROC AUC
+        
         if "roc_auc_test" in metrics_aggregated:
             roc_auc_history.append(metrics_aggregated["roc_auc_test"])
 
@@ -119,7 +119,7 @@ class FedAvgCustom(FedAvg):
                 last_five = roc_auc_history[-MAX_ROUNDS_WITHOUT_IMPROVEMENT:]
                 if all(x >= y for x, y in zip(last_five, last_five[1:])):
                     print(
-                        f"⚠️ Early stopping warning: ROC AUC has been decreasing for {MAX_ROUNDS_WITHOUT_IMPROVEMENT} rounds!"
+                        f"Early stopping warning: ROC AUC has been decreasing for {MAX_ROUNDS_WITHOUT_IMPROVEMENT} rounds!"
                     )
 
         return loss_aggregated, metrics_aggregated
@@ -139,10 +139,10 @@ def server_fn(num_rounds: int) -> None:
         server_address="0.0.0.0:8080", strategy=strategy, config=config
     )
 
-    # Сохраняем метрики и завершаем wandb
+    
     save_metrics(history=history)
     wandb.finish()
 
 
 if __name__ == "__main__":
-    server_fn(num_rounds=20)
+    server_fn(num_rounds=50)

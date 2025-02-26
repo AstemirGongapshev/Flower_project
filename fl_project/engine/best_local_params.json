@@ -1,0 +1,34 @@
+{
+    "df1_noniid": {
+        "optimizer": "SGD",
+        "lr": 0.0006779274767952471,
+        "num_epochs": 5,
+        "momentum": 0.8217145481796597
+    },
+    "df2_noniid": {
+        "optimizer": "AdamW",
+        "lr": 0.0012441036146380925,
+        "num_epochs": 10
+    },
+    "df3_noniid": {
+        "optimizer": "AdamW",
+        "lr": 0.005132665516935493,
+        "num_epochs": 10
+    },
+    "df4_noniid": {
+        "optimizer": "AdamW",
+        "lr": 0.0011062001603993382,
+        "num_epochs": 4
+    },
+    "df5_noniid": {
+        "optimizer": "SGD",
+        "lr": 0.002613097273586225,
+        "num_epochs": 8,
+        "momentum": 0.2871272177508824
+    },
+    "df6_noniid": {
+        "optimizer": "AdamW",
+        "lr": 0.009147127981272082,
+        "num_epochs": 9
+    }
+}

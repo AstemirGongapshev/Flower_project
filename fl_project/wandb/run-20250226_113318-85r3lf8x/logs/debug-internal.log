@@ -1,0 +1,15 @@
+{"time":"2025-02-26T11:33:18.448271+03:00","level":"INFO","msg":"stream: starting","core version":"0.19.6","symlink path":"C:\\Users\\Астемир\\Desktop\\Flower_project\\fl_project\\wandb\\run-20250226_113318-85r3lf8x\\logs\\debug-core.log"}
+{"time":"2025-02-26T11:33:18.5580498+03:00","level":"INFO","msg":"created new stream","id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:18.5580498+03:00","level":"INFO","msg":"stream: started","id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:18.5580498+03:00","level":"INFO","msg":"writer: Do: started","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:18.5580498+03:00","level":"INFO","msg":"handler: started","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:18.5580498+03:00","level":"INFO","msg":"sender: started","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:19.0193067+03:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-02-26T11:33:37.3112223+03:00","level":"INFO","msg":"stream: closing","id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:37.3112223+03:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-02-26T11:33:37.321535+03:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-02-26T11:33:38.2071115+03:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-02-26T11:33:38.5630032+03:00","level":"INFO","msg":"handler: closed","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:38.5630032+03:00","level":"INFO","msg":"writer: Close: closed","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:38.5630032+03:00","level":"INFO","msg":"sender: closed","stream_id":"85r3lf8x"}
+{"time":"2025-02-26T11:33:38.5635399+03:00","level":"INFO","msg":"stream: closed","id":"85r3lf8x"}
